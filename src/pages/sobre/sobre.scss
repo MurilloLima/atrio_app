@@ -1,0 +1,111 @@
+page-sobre {
+  ion-content{
+    background-image: url('../assets/imgs/sobre/sobre-background.jpg');
+    background-size: cover;
+    text-align: center;
+  }
+
+  .item.item-block{
+    color: #FFFFFF;
+    background-color: transparent;
+    margin-bottom: -15px;
+}
+
+//Definição das divs gerais
+  .content{
+    width: 100%;
+    height: 100%;
+  }
+  .cabecalho{
+    width: 100%;
+    height: 23%;
+  }
+  .conteudo{
+    width: 100%;
+    height: 77%;
+  }
+
+ //Definições específicas por div
+  .cabecalho-back{
+    height: 30%;
+    width: 100%;
+    color: #ffffff;
+    font-size: 1.5em;
+  }
+
+  .cabecalho-imagem-vest{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 70%;
+    border-right: 1px solid white;
+  }
+
+  .cabecalho-imagem-vest img{
+    height: 80%;
+    width: 50%;
+  }
+
+  .cabecalho-imagem-med{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 70%;
+  }
+
+  .cabecalho-imagem-med img{
+    height: 80%;
+    width: 70%;
+  }
+
+
+  .conteudo img{
+    width:60%;
+    height: 40%;
+    border-radius: 8px;
+  }
+
+  .conteudo h5{
+    padding-top: 3%;
+  }
+
+
+  /*Estilo dos views*/
+  .label{
+    font-size: 0.7em;
+    color: #ffffff;
+  }
+
+  .view-curso{
+    margin-top: -75px;
+  }
+  .view-curso .item.item-block{
+    margin-bottom: 15px;
+  }
+  .view-curso h2{
+    margin-left: 7%;
+    padding-bottom: 4%;
+    text-align: left;
+    color: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    letter-spacing: .7rem;
+  }
+
+  .view-curso h3{
+    padding-top: 2%;
+  }
+
+  .view-contato h3{
+    margin-left: 7%;
+    color: #c3004f;
+  }
+
+  .view-curso p{
+    font-size: 0.9em;
+    color: #ffffff;
+    line-height: 16px;
+  }
+
+
+
+}

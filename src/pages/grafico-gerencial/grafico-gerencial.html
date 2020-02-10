@@ -1,0 +1,286 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Gerencial</ion-title>
+
+    <ion-buttons end *ngIf="viewRestartParametros">
+      <button ion-button color="ligth" icon-only (click)="iniciarProcesso()">
+        <ion-icon name="close"></ion-icon>
+      </button>
+    </ion-buttons>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <!--<div class="content">
+    <div>
+      <ion-list *ngIf="viewEspecificacaoGrafico" no-lines class="list-info">
+        <h5 text-center>Selecione o tipo de análise desejada</h5>
+        <ion-item *ngFor="let opGr of opcaoGrafico">
+          {{opGr.name}}
+        </ion-item>
+      </ion-list>
+
+      <div *ngIf="viewPeriodo" class="list-info">
+        <h4 text-center>Análise {{titulo}}</h4>
+        <h5 text-center>Escolha o período</h5>
+
+        <ion-item no-lines>
+          <ion-label color="light" text-left>De:</ion-label>
+          <ion-datetime displayFormat="DD/MM/YY" pickerFormat="DD/MM/YYYY" [(ngModel)]="dtIniGrafico" doneText="OK">
+          </ion-datetime>
+        </ion-item>
+
+        <ion-item no-lines>
+          <ion-label color="light" text-left>A:</ion-label>
+          <ion-datetime displayFormat="DD/MM/YY" pickerFormat="DD/MM/YYYY" [(ngModel)]="dtFimGrafico"
+            (ionChange)="materiaTeste()" doneText="OK">
+          </ion-datetime>
+        </ion-item>
+      </div>
+
+      <ion-list *ngIf="viewEspecificacaoMateria" no-lines class="list-info">
+        <h5 text-center>Selecione a matéria</h5>
+        <ion-item *ngFor="let opGrMat of listMateria" (click)="graficoMateria(opGrMat.id,opGrMat.name)">
+          {{opGrMat.name}}
+        </ion-item>
+      </ion-list>
+
+    </div>
+
+    <div [hidden]="!viewGraficoMateria" padding-top>
+      <h4 text-center>Análise {{titulo}}</h4>
+      <h5 text-center style="word-spacing: 7px;">{{dtIniGrafico | date: 'dd/MM/yyyy'}} à
+        {{dtFimGrafico | date: 'dd/MM/yyyy'}}</h5>
+      <h5 text-center>{{materia}}</h5>
+
+      <ion-card>
+        <ion-card-content>
+          <canvas #doughnutMatDuvMat width="350" height="350"></canvas>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-content>
+          <canvas #doughnutMatAtTut width="350" height="350"></canvas>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-content>
+          <canvas #lineMatChHoMa width="350" height="350"></canvas>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-content>
+          <canvas #barMatTenMaCh width="350" height="350"></canvas>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-content>
+          <canvas #barMatTenMeCh width="350" height="350"></canvas>
+        </ion-card-content>
+      </ion-card>
+
+    </div>
+
+  </div>
+-->
+  <div class="content">
+
+    <div>
+      <!--EXIBIÇÃO DA ESPECIFICAÇÃO DO GRÁFICO-->
+      <ion-list *ngIf="viewEspecificacaoGrafico" no-lines class="list-info">
+        <h5 text-center>Selecione o tipo de análise desejada</h5>
+        <ion-item *ngFor="let opGr of opcaoGrafico" (click)="exibirPeriodo(opGr.tipo)">
+          {{opGr.name}}
+        </ion-item>
+      </ion-list>
+
+      <!--ESPECIFICAÇÃO DE MATERIA-->
+
+      <ion-list *ngIf="viewEspecificacaoMateria" no-lines class="list-info">
+        <h5 text-center>Selecione a matéria</h5>
+        <ion-item *ngFor="let opGrMat of listMateria" (click)="graficoMateria(opGrMat.id,opGrMat.name)">
+          {{opGrMat.name}}
+        </ion-item>
+      </ion-list>
+
+
+      <!--SELECIONAR O PERÍODO DOS GRÁFICOS-->
+      <div *ngIf="viewPeriodo" class="list-info">
+        <h4 text-center>Análise {{titulo}}</h4>
+        <h5 text-center>Escolha o período</h5>
+
+        <ion-item no-lines>
+          <ion-label color="light" text-left>De:</ion-label>
+          <ion-datetime displayFormat="DD/MM/YY" pickerFormat="DD/MM/YYYY" [(ngModel)]="dtIniGrafico" 
+          (ionChange)="validarPeriodo()" doneText="OK">
+          </ion-datetime>
+        </ion-item>
+
+        <ion-item no-lines>
+          <ion-label color="light" text-left>A:</ion-label>
+          <ion-datetime displayFormat="DD/MM/YY" pickerFormat="DD/MM/YYYY" [(ngModel)]="dtFimGrafico"
+            (ionChange)="validarPeriodo()" doneText="OK">
+          </ion-datetime>
+        </ion-item>
+      </div>
+
+
+
+      <!--ESPECIFICAÇÃO DE ALUNO e TUTOR-->
+      <ion-searchbar *ngIf="viewEspecificacaoAluno" (ionInput)="procurarItems($event)" placeholder="Procurar"
+        (ionCancel)="cancelProcurar($event)" cancelButtonText="Cancelar" showCancelButton="true"></ion-searchbar>
+      <ion-list *ngIf="viewEspecificacaoAluno" no-lines class="list-info">
+        <ion-list>
+          <ion-item *ngFor="let lsPa of listParametro" (click)="validarGraficoAlunoTutor(lsPa.id,lsPa.name)">
+            {{lsPa.name}}
+          </ion-item>
+        </ion-list>
+
+        <ion-infinite-scroll (ionInfinite)="doInfinite($event)">
+          <ion-infinite-scroll-content></ion-infinite-scroll-content>
+        </ion-infinite-scroll>
+
+      </ion-list>
+
+      <!--************* Gráficos do chamado ***********************************************-->
+
+
+      <div [hidden]="!viewGraficoChamado" padding-top>
+        <h4 text-center>Análise {{titulo}}</h4>
+        <h5 text-center style="word-spacing: 7px;">{{dtIniGrafico | date: 'dd/MM/yyyy'}} à
+          {{dtFimGrafico | date: 'dd/MM/yyyy'}}</h5>
+        <ion-card>
+          <ion-card-content>
+            <canvas #doughnutChamadoPorMateria width="350" height="350"></canvas>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card margin-top>
+          <ion-card-content>
+            <canvas #doughnutChamadoPorTutor width="350" height="350"></canvas>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card margin-top>
+          <ion-card-content>
+            <canvas #lineChamadoPorHora width="350" height="350"></canvas>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card margin-top>
+          <ion-card-content>
+            <canvas #barTopTenAlMaCh width="350" height="350"></canvas>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card margin-top>
+          <ion-card-content>
+            <canvas #barTopLessTenAlMaCh width="350" height="350"></canvas>
+          </ion-card-content>
+        </ion-card>
+
+      </div>
+
+      <!--GRÁFICOS PARA ESPECIFICAÇÃO DE MATÉRIA-->
+      <div [hidden]="!viewGraficoMateria" padding-top>
+        <h4 text-center>Análise {{titulo}}</h4>
+        <h5 text-center style="word-spacing: 7px;">{{dtIniGrafico | date: 'dd/MM/yyyy'}} à
+          {{dtFimGrafico | date: 'dd/MM/yyyy'}}</h5>
+        <h5 text-center>{{materia}}</h5>
+
+        <ion-card>
+          <ion-card-content>
+            <canvas #doughnutMatDuvMat width="350" height="350"></canvas>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-card-content>
+            <canvas #doughnutMatAtTut width="350" height="350"></canvas>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-card-content>
+            <canvas #lineMatChHoMa width="350" height="350"></canvas>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-card-content>
+            <canvas #barMatTenMaCh width="350" height="350"></canvas>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-card-content>
+            <canvas #barMatTenMeCh width="350" height="350"></canvas>
+          </ion-card-content>
+        </ion-card>
+
+      </div>
+
+
+    </div>
+
+    <!--GRÁFICOS PARA ESPECIFICAÇÃO DE ALUNO-->
+    <div [hidden]="!viewGraficoAluno" padding-top>
+      <h4 text-center>Análise {{titulo}}</h4>
+      <h5 text-center style="word-spacing: 7px;">{{dtIniGrafico | date: 'dd/MM/yyyy'}} à
+        {{dtFimGrafico | date: 'dd/MM/yyyy'}}</h5>
+      <h5 text-center>{{name}}</h5>
+      <ion-card>
+        <ion-card-content>
+          <canvas #doughnutAlChAlMa width="350" height="350"></canvas>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-content>
+          <canvas #doughnutAlAtePorClas width="350" height="350"></canvas>
+        </ion-card-content>
+      </ion-card>
+
+    </div>
+
+
+    <!--GRÁFICOS PARA ESPECIFICAÇÃO DE TUTOR-->
+    <div [hidden]="!viewGraficoTutor" padding-top>
+      <h4 text-center>Análise {{titulo}}</h4>
+      <h5 text-center style="word-spacing: 7px;">{{dtIniGrafico | date: 'dd/MM/yyyy'}} à
+        {{dtFimGrafico | date: 'dd/MM/yyyy'}}</h5>
+      <h5 text-center>{{name}}</h5>
+      <ion-card>
+        <ion-card-content>
+          <canvas #doughnutTutChMat width="350" height="350"></canvas>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-content>
+          <canvas #doughnutTutChCl width="350" height="350"></canvas>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card>
+        <ion-card-content>
+          <canvas #lineTutAtHoTut width="350" height="350"></canvas>
+        </ion-card-content>
+      </ion-card>
+    </div>
+
+    <!--<a ion-button href="https://api.whatsapp.com/send?phone=5564992552031">SEND</a>-->
+
+
+  </div>
+
+
+</ion-content>

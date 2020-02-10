@@ -1,0 +1,119 @@
+page-atendimento-usuario {
+
+  .toolbar-background{
+    background: color($colors, toolbar-color);
+  }
+  .button-inner, .toolbar-title{
+    color: #FFFFFF;
+  }
+  
+  .content{
+    background: color($colors,  background-page);
+  }
+
+  .img-toolbar{
+    border-radius: 25%;
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+  @keyframes slidein {
+    from {
+      -webkit-transform: scale(0);
+      transform: scale(0); 
+    }
+  
+    to {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  }
+
+
+  .div-informativo{
+    position: relative;
+    width: 82%;
+    height: auto;
+    margin: 2% 9% 0 9%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid #ffffff;
+    //background: rgb(214, 103, 103);
+  }
+
+  .div-atendimento{
+    position: relative;
+    width: 82%;
+    height: 25%;
+    margin: 2% 9% 5% 9%;
+    //background: rgb(209, 207, 207);
+  }
+
+  .div-mentor{
+    position: relative;
+    width: 82%;
+    height: 50%;
+    margin: 0% 9% 0 9%;
+    color: #ffffff;
+    padding: 0;
+    animation-duration: 2s;
+    animation-name: mentorshow;
+    
+    //background: rgb(176, 226, 164);
+  }
+
+
+  @keyframes mentorshow {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .div-informativo h1{
+    color: #ffffff;
+    letter-spacing: .7rem;
+    white-space: nowrap;
+    font-size: 2.2em;
+  }
+
+  .button{
+    text-transform: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    margin-top: 10%;
+    padding: 8%;
+  }
+  .button-inner{
+    justify-content:center;
+  }
+
+  .info-user-foto{
+    position: relative;
+    width: 80%;
+    height: 80%;
+    border-radius: 8px;
+    //padding-top: 7px;
+  }
+
+  ion-row{
+    height: auto;
+  }
+
+  ion-col{
+    height: 100%;
+  }
+
+  h5{
+    font-size: 1.2em;
+  }
+
+  p{
+    font-size: 0.8em;
+  }
+
+}

@@ -1,0 +1,14 @@
+page-espaco {
+    ion-content{
+        background-image: url('../assets/imgs/sobre/sobre-background.jpg');
+        background-size: cover;
+        text-align: center;
+      }
+      
+    .toolbar-background{
+        background: color($colors, toolbar-color);
+    }
+    .button-inner, .toolbar-title{
+        color: #FFFFFF;
+    } 
+}

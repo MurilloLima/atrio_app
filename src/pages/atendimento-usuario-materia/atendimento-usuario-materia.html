@@ -1,0 +1,56 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>PPA</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <div class="content">
+
+    <div class="list-info">
+      <ion-list *ngIf="viewArea" no-lines>
+        <h5 text-center>Selecione a área</h5>
+        <ion-item *ngFor="let area of areas" (click)="solicitarAtendimento(area)">
+          {{area.name}}
+        </ion-item>
+      </ion-list>
+
+      <ion-list *ngIf="viewMateria" no-lines>
+        <h5 text-center>Selecione a matéria</h5>
+        <ion-item *ngFor="let materia of materias" (click)="solicitarAtendimentoConcluir(materia)" >
+          <ion-avatar item-start >
+            <img [src]="materia.image" >
+          </ion-avatar>
+          <h2 text-left>{{materia.name}}</h2>
+        </ion-item>
+      </ion-list>
+
+      <ion-list *ngIf="viewConcluir" class="atendimento-solicitado">
+          <div class="atendimento-texto" text-center>Seu atendimento <br>foi solicitado</div>
+
+          <div class="atendimento-materia" text-center>
+              <img [src]="materia.image" class="img-materia">
+              <h3>{{materia.name}}</h3>
+          </div>
+
+          <div class="atendimento-cancelar">
+            <p text-center>Habilite as notificações do seu celular para ser avisado</p>
+
+          </div>
+          <button color="ppa" ion-button block (click)="cancelarSolicitacao()">Cancelar atendimento</button>
+        <!--
+        <ion-item>Seu atendimento foi solicitado</ion-item>
+        <ion-item>
+          <img [src]="materia.image">{{materia.name}}</ion-item>
+        <ion-item>{{materia.name}}</ion-item>
+        <button ion-button block (click)="cancelarSolicitacao()">Cancelar atendimento</button>
+        -->
+      </ion-list>
+
+    </div>
+  </div>
+</ion-content>

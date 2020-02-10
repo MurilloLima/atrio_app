@@ -1,0 +1,83 @@
+<ion-content class="background">
+
+  <img src="assets/imgs/login-logo.png" alt="logo" style="margin-top: 15px;">
+
+  <ion-card>
+
+    <ion-card-header>
+
+    </ion-card-header>
+
+    <ion-card-content>
+
+      <ion-list no-lines>
+
+        <ion-item>
+          <button ion-button icon-only item-left color="ppa">
+            <ion-icon name="person"></ion-icon>
+          </button>
+          <ion-input type="text" placeholder="USUÁRIO" text-center clearInput [(ngModel)]="loginUsuario"> </ion-input>
+        </ion-item>
+
+        <ion-item>
+          <button ion-button icon-only item-left color="ppa">
+            <ion-icon name="lock"></ion-icon>
+          </button>
+          <ion-input type="password" placeholder="SENHA" text-center clearInput [(ngModel)]="senha"></ion-input>
+        </ion-item>
+
+        <button ion-button small color="ppa" (click)="login()" class="btn-action">Entrar</button>
+        <br><br>
+        <p (click)="alterarSenha()" class="esquecer-senha">Esqueceu sua senha?</p>
+
+      </ion-list>
+
+      <div class="conheca-ppa">
+        <button ion-button clear color="light" (click)="cadastrar()">Cadastre-se</button><br/>
+        <button ion-button clear color="light" (click)="openSobrePage()">Conheça o PPA</button>
+      </div>
+
+    </ion-card-content>
+  </ion-card>
+</ion-content>
+
+<!--
+
+<ion-content class="div-content">
+
+  <div class="div-logo"></div>
+
+  <div class="div-login">
+    <ion-grid>
+      <ion-row align-items-center class="rowUsuario">
+        <ion-col col-2>
+          <div class="col-img-login">
+            <div class="img-login">
+              <ion-icon name="person"></ion-icon>
+            </div>
+          </div>
+        </ion-col>
+        <ion-col col-10>
+          <ion-input type="text" placeholder="USUÁRIO" text-center clearInput [(ngModel)]="loginUsuario"></ion-input>
+        </ion-col>
+      </ion-row>
+
+      <ion-row align-items-center class="rowUsuario">
+        <ion-col col-2>
+          <div class="col-img-login">
+            <div class="img-login">
+              <ion-icon name="lock"></ion-icon>
+            </div>
+          </div>
+        </ion-col>
+        <ion-col col-10>
+          <ion-input type="password" placeholder="SENHA" text-center clearInput [(ngModel)]="senha"></ion-input>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <div class="div-rodape"></div>
+
+</ion-content>
+-->

@@ -1,0 +1,56 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>PPA</ion-title>
+
+    <ion-buttons end>
+      <button ion-button color="primary" icon-only>
+        <img class="img-toolbar" [src]="image_user_toolbar" width="37" height="37" />
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding class="content">
+
+  <div class="div-informativo">
+    <h1>Plataforma
+      <br> Adaptativa
+    </h1>
+  </div>
+
+  <div class="div-atendimento">
+    <button ion-button block clear (click)="solicitarAtendimento()">Solicitar atendimento</button>
+    <button ion-button block clear (click)="chamadosPendentes()">Atendimentos pendentes</button>
+  </div>
+
+  <div class="div-mentor">
+    <h5 text-center>Tutores Disponíveis</h5>
+    <ion-row>
+      <ion-col col-4 *ngFor="let td of listTutorDisponivel" text-center>
+        <img [src]="td.image" class="info-user-foto" />
+        <p>{{td.name}} </p>
+      </ion-col>
+    </ion-row>
+  </div>
+
+
+  <!--
+<h1 text-center color="light">Plataforma <br>Adaptativa</h1>
+*ngFor="let td of listTutorDisponivel"
+  <button ion-button block (click)="solicitarAtendimento()">Solicitar atendimento</button>
+  <button ion-button block (click)="chamadosPendentes()">Atendimentos pendentes</button>
+
+  <h3>Tutores Disponíveis</h3>
+  <ion-list *ngFor="let td of listTutorDisponivel">
+    <ion-item>
+      <ion-avatar>
+        <img [src]="td.image" />
+        {{td.name}}
+      </ion-avatar>
+    </ion-item>
+  </ion-list>
+-->
+</ion-content>

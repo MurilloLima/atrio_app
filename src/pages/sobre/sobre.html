@@ -1,0 +1,206 @@
+<ion-content padding>
+  <div class="content">
+    <div class="cabecalho" (click)="backPage()">
+      <div class="cabecalho-back" text-left>
+        <ion-icon name="home"></ion-icon>
+        <ion-icon name="arrow-back"></ion-icon>
+      </div>
+      <div class="cabecalho-imagem-vest" *ngIf="viewConteudo">
+        <img src="assets/imgs/sobre/sobre-logo-vest.png">
+      </div>
+      <div class="cabecalho-imagem-med" *ngIf="viewConteudo">
+        <img src="assets/imgs/sobre/sobre-logo-med.png" />
+      </div>
+    </div>
+
+    <div class="conteudo">
+      <ion-list no-lines *ngIf="viewConteudo">
+
+        <ion-item text-center (click)="exibir(1)">
+          <h5>Cursos</h5>
+          <img src="assets/imgs/sobre/botao_cursos.png" />
+        </ion-item>
+
+        <ion-item text-center (click)="openEspaco()">
+          <h5>Espaço</h5>
+          <img src="assets/imgs/sobre/botao_espaco.png" />
+        </ion-item>
+
+        <ion-item text-center (click)="exibir(3)">
+          <h5>Metodologia</h5>
+          <img src="assets/imgs/sobre/botao_metodologia.png">
+        </ion-item>
+
+        <ion-item text-center (click)="exibir(4)">
+          <h5>Contatos</h5>
+          <img src="assets/imgs/sobre/botao_contato.png" />
+        </ion-item>
+
+      </ion-list>
+
+      <!--INFORMÇAÕES DO CURSO-->
+
+
+      <ion-list *ngIf="viewCurso" class="view-curso">
+        <h2>Cursos </h2>
+        <ion-item>
+          <h3 text-wrap>Pré-Vestibular Integral +conforto</h3>
+          <br>
+          <p text-wrap>
+            O pré-vestibular integral +conforto é um curso semestra, cujo objetivo é trabalhar
+            todo o conteúdo do Ensino Médio, partindo de uma abordagem básica, até reflexões mais
+            profundas. Com planeamento diário de atividades, aulas dinâmicas e com linguagem
+            contextualizada, além de todo esse conteúdo, oferecemos, em nossa grade-horária,
+            aula prática de redação, de atualidades, de obras clássicas,
+            de situação-problema (objetivando desenvolver nos estudantes repertório sociocultural e
+            habilidade em resolver problemas). O diferencial desse curso é a metodologia ativa
+            que o PPA oferece, o encontro semanal com nossos mentores e o material do Ari de Sá (SAS),
+            cuja plataforma digital apresenta as melhores ferramentas educacionais de apoio ao estudante.
+          </p>
+
+        </ion-item>
+
+        <ion-item>
+          <h3 text-wrap>Estudo Orientado Campus Integral</h3>
+          <br>
+          <p text-wrap>
+            O Campus é nossa realidade mais orgânica. Com trabalho duro, com garra, com planejamento,
+            organizamos a rotina diária do estudante. Não se trata de um reforço escolar, mas, sim,
+            do desenvolvimento do hábido de estudo, do comportamento necessário para se tornar um indivíduo
+            de alta performance. Neste curso, por meio da Jornada de Transformação, transformamos o Aluno
+            em Estudante e o Participante em Candidato. O encontro semana com os mentores e as atividades
+            complementares são nossos diferenciais.
+          </p>
+
+        </ion-item>
+
+        <ion-item>
+          <h3 text-wrap>Pré-vestibular Integral turma</h3>
+          <br>
+          <p text-wrap>
+            O pré-vestibular integral turam é um curso semestral, cujo objetivo é trabalhar todo o
+            conteúdo do Ensino Médio partindo de uma abordagem básia até reflexões de atividades,
+            aulas dinâmicas e com linguagem contextualizada, além de todo esse conteúdo, oferecemos,
+            em nossa grade-horária, aula prática de redação, de atualidades, de obras clássicas,
+            de situação-problema (objetivando desenvolver nos estudantes repertório sociocultural e
+            habilidade em resolver problemas). O diferencial desse curso é a metodologia ativa que o
+            PPA oferece, o encontro semanal com nossos mentores e o material do Ari de Sá (SAS),
+            cuja plataforma digital apresenta as melhores ferramentas educacionais de apoio ao estudante.
+          </p>
+
+        </ion-item>
+
+        <ion-item>
+          <h3 text-wrap>Estudo Orientado Campus Complementar</h3>
+          <br>
+          <p text-wrap>
+            O campus é a nossa realidade mais orgânica. Com trabalho duro, com garra, com planejamento de atividades,
+            com estudo estratégico, organizamos o contraturno escolar do estudante. Não se trata de um reforço escolar,
+            mas, sim, do desenvolvimento do hábito de estudo, do comportamento necessário para se tornar um indíviduo de
+            alta performance. Neste curso, por meio da Jornada de Transformação, transformamos o Aluno em Estudante e o
+            Participante em Candidato. O encontro semanal com os mentores e as atividades complementares são nossos
+            diferenciais.
+          </p>
+
+        </ion-item>
+
+        <ion-item>
+          <h3 text-wrap>
+            Pré-MED DF matutino e noturno</h3>
+          <br>
+          <p text-wrap>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+            ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            Excepteur sint occaecat
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+
+        </ion-item>
+
+        <ion-item>
+          <h3 text-wrap>
+            Redação com Filosofia</h3>
+          <br>
+          <p text-wrap>
+            A prova de redação do Enem é uma prova de LEITURA. O objetivo deste curso é apresentar aos candidatos as
+            regras do jogo. Detalhamos o funcionamento da planilha de correção (nível a nível) para comprovar que
+            redação é treino, é prática é LEITURA estratégica, e não sorte ou inspiração. Com uma pitada crítica de
+            filosofia, desenvolvemos repertório sociocultural produtivo e autoria sempre buscando as melhores soluções
+            para as situações-problemas trabalhadas durante as aulas.
+
+          </p>
+
+        </ion-item>
+
+      </ion-list>
+
+      <!--INFORMÇAÕES DE METODOLOGIA -->
+      <ion-list *ngIf="viewMetodologia" class="view-curso">
+        <ion-item>
+          <h2 text-wrap style="color: #7cc0b5; font-weight: bold;
+                  border-bottom: 1px solid #7cc0b5; margin-left: 0%; padding-top: 3%;">
+            METODOLOGIA</h2>
+          <br>
+          <p text-wrap>
+            Após belos e longos anos lecionando em grandes instituições de Brasília e de Goiânia e com
+            caminhada profissional consolidada, nós (Paulo Pérez e Riemma) podemos dizer que a história do
+            PPA começou há 16 anos. Difícil desvincular nossas impressões profissionais do que é o PPA.
+            Digamos que com "casa própria" com metodologia e com sistematização, iniciamos o PPA em 2017.
+            A filosofia PPA, entretanto, sempre esteve presente em nossas relações. Ou seja, não somos novos;
+            somos novidade!
+            <br><br>
+            O PPA é uma troca entre envolvimento e comprometimento. Fazemos a diferença na vida de nossos
+            estudantes, assim como esses jovens fazer a diferença em nossas vidas! PPA é a sigla de
+            Planejamento, Preparação e Aplicação. Reunimos as três ações que acreditamos ser a base de uma
+            caminhada direcionada a conquistas.
+            <br><br>
+            Reunimos as três ações nas quais acreditamos a ser a base de uma caminhada direcionada a conquistas.
+          </p>
+          <br>
+          <div>
+            <h5 style="color: #7cc0b5">O PLANEJAMENTO:</h5>
+            <p text-wrap>(Saber o que estudar, como estudar, por que estudar e quando estudar)</p>
+            <br>
+          </div>
+
+          <div>
+            <h5 style="color: #7cc0b5"> A PREPARAÇÃO: </h5>
+            <p text-wrap>(Estudar de fato! Ser competente. O estudo ativo e orientado)</p>
+            <br>
+          </div>
+
+          <div>
+            <h5 style="color: #7cc0b5"> A APLICAÇÃO: </h5>
+            <p text-wrap>(Saber fazer - praticar - ter habilidade)<br>
+              Por isso, PPA - Estudo Orientado, aprendendo a conquistar!
+              <br><br>
+              Nossa metodologia foi desenvolvida em anos de experiência teórico-vivencial e está
+              consolidada com o tempo e com o alto índice de casos de sucesso. O PPA se propõe a
+              transformar alunos em estudantes e participantes em candidatos.
+            </p>
+
+          </div>
+        </ion-item>
+        <iframe [src]="sanitize(vid)" frameborder="0" allowfullscreen></iframe>
+        <ion-item no-lines></ion-item>
+      </ion-list>
+
+
+      <!--INFORMAÇÕES DE CONTATO-->
+      <ion-list *ngIf="viewContato" class="view-contato">
+        <h3 text-left>Contato</h3>
+        <ion-item text-wrap>
+          Centro Empresarial Brasil 21<br>
+          Bloco A, salas 503/504, 5º andar<br>
+          CEP 70.316-102<br>
+          Telefon: 352-2286<br>
+          e-mail: ppa@campusppa.com.br<br>
+        </ion-item>
+      </ion-list>
+    </div>
+
+
+  </div>
+</ion-content>

@@ -1,0 +1,32 @@
+page-cadastrar {
+  ion-content {
+    background-image: url("../assets/imgs/sobre/sobre-background.jpg");
+    background-size: cover;
+    text-align: center;
+  }
+  ion-icon{
+    font-size: 0.9em;
+  }
+  ion-input{
+    color: color($colors, ppa);
+    font-weight: bold;
+  }
+
+  .toolbar-background{
+    background: color($colors, toolbar-color);
+  }
+  .button-inner, .toolbar-title{
+    color: #FFFFFF;
+  }
+
+  .item.item-block {
+    color: #ffffff;
+    background: none;
+    font-size: 0.9em;
+    //margin-bottom: -15px;
+  }
+
+  h1 {
+    font-size: 7em;
+  }
+}

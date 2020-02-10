@@ -1,0 +1,25 @@
+page-atendimento-usuario-pendente {
+
+    .scroll-content{
+      background: color($colors,  background-page);
+    }
+
+    .toolbar-background{
+        background: color($colors, toolbar-color);
+      }
+
+    .button-inner, .toolbar-title{
+        color: #FFFFFF;
+    }
+      
+    .item.item-block{
+        width: 80%;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: transparent;
+        font-size: 1.1em;
+        border-bottom: 1px solid white;
+        margin: 0 10% 0 10%;
+    }
+
+}

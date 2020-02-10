@@ -1,0 +1,49 @@
+page-grafico-gerencial {
+  .scroll-content {
+    background: color($colors, background-page);
+  }
+
+  .content {
+    width: 100%;
+    height: 100%;
+  }
+
+  .toolbar-background{
+    background: #311734;
+  }
+  .button-inner, .toolbar-title{
+    color: #FFFFFF;
+  }
+
+  .item.item-block.item-ios{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: transparent;
+    font-size: 1.1em;
+    border-bottom: 1px solid white;
+}
+
+  .list-info {
+    width: 80%;
+    height: 100%;
+    margin: 0 10% 0 10%;
+  }
+
+  h5 {
+    font-size: 0.9em;
+    color: #ffffff;
+  }
+
+  h4 {
+    font-size: 1.1em;
+    color: #ffffff;
+  }
+
+  //Configurações do Gráfico
+  ion-card.card{
+    background: transparent;
+    padding: 0;
+    margin: 0;
+  }
+
+}

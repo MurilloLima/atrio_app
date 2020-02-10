@@ -1,0 +1,27 @@
+page-tutor-registro-ponto {
+  .scroll-content{
+    background: color($colors,  background-page);
+}
+
+.toolbar-background{
+  background: color($colors, toolbar-color);
+}
+.button-inner, .toolbar-title{
+  color: #FFFFFF;
+}
+
+  .item.item-block{
+    text-align: center;
+    color: #FFFFFF;
+    background-color: transparent;
+    font-size: 1.1em;
+    border-bottom: 1px solid white;
+  }
+
+  .list-registro{
+    width: 90%;
+    height: 100%;
+    margin: 10% 5% 0 5%;
+}
+
+}

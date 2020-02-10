@@ -1,0 +1,113 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Encerrar atendimento</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div class="list-atendimento" *ngIf="viewEncerrarAtendimento">
+
+    <ion-list>
+      <ion-list *ngIf="!statusPassoTres">
+        <ion-item *ngFor="let item of listItem" (click)="setTheme(item)">
+          {{item.name}}
+        </ion-item>
+      </ion-list>
+
+      <ion-list *ngIf="statusPassoTres" no-lines>
+        <ion-item>
+          <p>Estudante: {{chamadoAluno.name}}</p>
+          <p>Cabine: {{chamadoAluno.board}}</p>
+          <p text-wrap>Conteúdo: {{conteudoSelecionado}}</p>
+        </ion-item>
+
+        <ion-item>
+          <ion-label stacked>Descrição</ion-label>
+          <ion-textarea [(ngModel)]="description" rows="7" cols="20" style="border: 1px solid white"></ion-textarea>
+        </ion-item>
+        <ion-item>
+          <ion-label stacked>Razão</ion-label>
+          <ion-select [(ngModel)]="reason" interface="popover" style="border-bottom: 1px solid white">
+            <ion-option *ngFor="let rs of listReason" value="{{rs.name}}">
+              {{rs.name}}
+            </ion-option>
+          </ion-select>
+        </ion-item>
+
+        <div class="button-action">
+          <button ion-button small color="toolbar-color" light (click)="finalizarChamado('end-call')" type="submit">
+            Finalizar
+          </button>
+          <button ion-button small color="ppa" light (click)="finalizarChamado('new-call')" type="submit">
+            Novo
+          </button>
+          <button ion-button small color="danger" light (click)="cancelarChamado()" type="submit">
+            Cancelar
+          </button>
+        </div>
+
+        <button ion-button item-end icon-start full clear class="button-mentoria" *ngIf="dadosChamado.matters_id==16"
+        (click)="mentoria()">
+          <ion-icon name="school"></ion-icon>
+          Mentoria
+        </button>
+
+      </ion-list>
+    </ion-list>
+
+  </div>
+
+  <!-- ABRIR CHAMADO PARA ALUNO EXIBIDO QUANDO CLICAR EM NOVO CHAMADO -->
+  <div class="content" *ngIf="viewNewCall">
+
+    <div class="list-info" text-center>
+
+      <ion-list *ngIf="viewArea" no-lines>
+        <h5 text-center>Selecione a área</h5>
+        <ion-item *ngFor="let area of areas" (click)="solicitarAtendimento(area)">
+          {{area.name}}
+        </ion-item>
+      </ion-list>
+
+      <ion-list *ngIf="viewMateria" no-lines>
+        <h5 text-center>Selecione a matéria</h5>
+        <ion-item *ngFor="let materia of materias" (click)="solicitarAtendimentoConcluir(materia)">
+          <ion-avatar item-start>
+            <img [src]="materia.image">
+          </ion-avatar>
+          <h2 text-left>{{materia.name}}</h2>
+        </ion-item>
+      </ion-list>
+
+      <ion-list *ngIf="viewConcluir" class="atendimento-solicitado">
+        <div class="atendimento-texto" text-center>Seu atendimento
+          <br>foi solicitado</div>
+
+        <div class="atendimento-materia" text-center>
+          <img [src]="materia.image" class="img-materia">
+          <h3>{{materia.name}}</h3>
+        </div>
+
+        <div class="atendimento-cancelar">
+          <p text-center>Habilite as notificações do seu celular para ser avisado</p>
+        </div>
+
+        <!--
+        <button color="ppa" ion-button block (click)="cancelarSolicitacao()">Cancelar atendimento</button>
+
+        <ion-item>Seu atendimento foi solicitado</ion-item>
+        <ion-item>
+          <img [src]="materia.image">{{materia.name}}</ion-item>
+        <ion-item>{{materia.name}}</ion-item>
+        <button ion-button block (click)="cancelarSolicitacao()">Cancelar atendimento</button>
+        -->
+      </ion-list>
+
+    </div>
+  </div>
+
+</ion-content>

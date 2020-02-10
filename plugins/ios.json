@@ -1,0 +1,52 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com-sarriaroman-photoviewer": {
+      "PACKAGE_NAME": "appppa.pxls.tech"
+    },
+    "cordova-plugin-background-mode": {
+      "PACKAGE_NAME": "appppa.pxls.tech"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "appppa.pxls.tech"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "appppa.pxls.tech"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "appppa.pxls.tech"
+    },
+    "cordova-plugin-ionic-webview": {
+      "PACKAGE_NAME": "appppa.pxls.tech"
+    },
+    "cordova-plugin-local-notification": {
+      "PACKAGE_NAME": "appppa.pxls.tech"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "appppa.pxls.tech"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "appppa.pxls.tech"
+    },
+    "cordova.plugins.diagnostic": {
+      "PACKAGE_NAME": "appppa.pxls.tech"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "appppa.pxls.tech"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "appppa.pxls.tech"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "appppa.pxls.tech"
+    }
+  }
+}

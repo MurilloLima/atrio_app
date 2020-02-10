@@ -1,0 +1,116 @@
+<ion-content padding>
+
+  <div style="width: 100%;height: 100%">
+
+    <div class="info-user">
+      <div class="info-user-sair">
+        <ion-row align-items-end>
+          <ion-col col-12 text-right>
+            <ion-icon name="exit" (click)="logout()"></ion-icon>
+          </ion-col>
+        </ion-row>
+
+      </div>
+
+      <div class="info-user-nome">
+
+        <div style="height: 100%; width: 30%; position: relative;float:left">
+          <div class="info-user-img">
+            <img [src]="image_user" class="info-user-foto" />
+          </div>
+        </div>
+
+        <div style="height: 100%; width: 60%; margin-left:16px; position: relative;float:left;" text-left>
+          <h5>{{usuario.name}}</h5>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="info-user-tenant">
+      <div style="height: 100%; width: 30%; position: relative;float:left">
+
+      </div>
+      <div style="height: 100%; width: 70%; position: relative;float:left">
+        <ion-list>
+          <ion-item style="font-size:0.8em;" (click)="changeTenant()" >
+            {{usuario.tenant.name}}
+          </ion-item>
+
+          <ion-item [hidden]="true">
+            <ion-label>Escolha o campus</ion-label>
+            <ion-select #sectionSelect [(ngModel)]="tenantIdSave" cancelText="Cancelar" (ionChange)="saveTenant()">
+              <ion-option *ngFor="let opt of listTenant" [value]="opt.tenant_id">{{opt.name}}</ion-option>
+            </ion-select>
+          </ion-item>
+
+          <ion-item *ngIf="viewAbrirChamado" (click)="exibirRelatorio()">
+            <p>Meus Gráficos</p>
+          </ion-item>
+
+        </ion-list>
+
+      </div>
+    </div>
+
+    <div style="width: 100%;height: 3%;"></div>
+
+    <ion-scroll scrollY="true" [hidden]="!viewRelatorio">
+
+      <div>
+        <ion-row style="font-size: 0.9em; color:#f4f4f4;">
+          <ion-col col-1>De:</ion-col>
+          <ion-col col-5 text-left>
+            <ion-datetime displayFormat="DD/MM/YY" pickerFormat="DD/MM/YYYY" [(ngModel)]="dtIniGrafico"
+              (ionChange)="exibirGraficosPeriodo()" doneText="OK">
+            </ion-datetime>
+          </ion-col>
+          <ion-col col-1 *ngIf="dtIniGrafico!=null">A: </ion-col>
+          <ion-col col-5 *ngIf="dtIniGrafico!=null" text-left>
+            <ion-datetime color="toolbar-color" displayFormat="DD/MM/YY" pickerFormat="DD/MM/YYYY"
+              [(ngModel)]="dtFimGrafico" (ionChange)="exibirGraficosPeriodo()" doneText="OK"></ion-datetime>
+          </ion-col>
+        </ion-row>
+
+        <ion-card>
+          <ion-card-content>
+            <canvas #doughnutCanvas width="350" height="350"></canvas>
+          </ion-card-content>
+        </ion-card>
+
+        <ion-card>
+          <ion-card-content>
+            <canvas #doughnutCanvasMatter width="330" height="330"></canvas>
+          </ion-card-content>
+        </ion-card>
+
+      </div>
+    </ion-scroll>
+
+    <div class="menu-user" *ngIf="!viewRelatorio">
+
+      <button *ngIf="viewGraficoGerencial" ion-button block clear (click)="openGraficoGerencial()">
+        <ion-icon name="stats" style="margin-right: 10%"></ion-icon>
+        Gráficos gerenciais
+      </button>
+
+
+      <button *ngIf="viewAbrirChamado" ion-button block clear (click)="openAtendimentoPageAluno()">
+        <ion-icon name="help-buoy" style="margin-right: 10%"></ion-icon>
+        Atendimento
+      </button>
+
+      <button *ngIf="viewChamadoPendente" ion-button block clear (click)="chamadosPendentesTutor()">
+        <ion-icon name="list-box" style="margin-right: 10%"></ion-icon>
+        Chamados pendentes
+      </button>
+
+      <button *ngIf="viewChamadoPendente" ion-button block clear (click)="openTutorRegistroPontoPage()">
+        <ion-icon name="finger-print" style="margin-right: 10%"></ion-icon>
+        Registros de pontos
+      </button>
+
+    </div>
+
+  </div>
+</ion-content>

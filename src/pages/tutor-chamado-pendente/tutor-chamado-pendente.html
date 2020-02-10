@@ -1,0 +1,38 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Chamados pendentes</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div class="content-list">
+    <ion-list no-lines>
+
+      <ion-item-sliding *ngFor="let ch of chamadosPendente" class="sliding">
+
+        <ion-item (click)="requisitionSetTheme(ch)" [ngClass]="{'chamado-atendimento':ch.statuses_id==2}">
+          <ion-avatar item-start>
+            <img [src]="ch.image">
+          </ion-avatar>
+          <p>Ticket: {{ch.id_call}}</p>
+          <p>{{ch.name}} </p>
+          <p>Cabine: {{ch.board}}</p>
+          <p>{{ch.matter}}</p>
+
+          <ion-icon small color="iconColor" name="code-working" item-end></ion-icon>
+        </ion-item>
+
+        <ion-item-options side="right">
+          <button ion-button (click)="cancelarChamado(ch)" color="danger">
+            <ion-icon name="trash"></ion-icon>
+          </button>
+        </ion-item-options>
+
+      </ion-item-sliding>
+    </ion-list>
+  </div>
+</ion-content>

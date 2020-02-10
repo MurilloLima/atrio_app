@@ -1,0 +1,62 @@
+page-login {
+
+  .background{
+    width:100%;
+    height:100%;
+    background-image: url('../assets/imgs/login-background.jpg');
+    background-size: cover;
+  }
+
+  img{
+    //margin-top: 10px;
+    width: 40%;
+  }
+
+  ion-input{
+    color: #fff;
+    font-size: 1.2em;
+    }
+ 
+  .scroll-content{
+  text-align: center;
+  }  
+  
+  .esquecer-senha{
+    color: #FFFFFF;
+    font-size: 0.7em;
+    opacity: 0.9;
+    margin-top: 0px;
+  }
+
+  ion-card.card{
+    background: transparent;
+    margin-bottom: 20%;
+  }
+  .item{
+  background: transparent;
+  }
+  .item .button{
+    font-size: 1em;
+  }
+
+ .item.item-block.item-ios{
+  border-bottom: #FFFFFF solid 1px;
+  }
+  
+  .btn-action{
+    margin-top: 5%;
+    width: 50%;
+  }
+
+  .conheca-ppa{
+    margin-top: 15%;
+  }
+  .conheca-ppa button{
+    width: 50%;
+    text-transform: none;
+    border-radius: 5px;
+    font-size: 0.8em;
+    border: 1px solid #FFFFFF;
+  }
+
+}

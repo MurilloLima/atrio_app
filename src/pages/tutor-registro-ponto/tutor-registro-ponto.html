@@ -1,0 +1,30 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Registro de ponto</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div class="list-registro">
+    <!-- <ion-list radio-group [(ngModel)]="tipoRegistro" no-lines>
+
+      <ion-item>
+        <ion-label>Entrada</ion-label>
+        <ion-radio value="entrada"></ion-radio>
+      </ion-item>
+
+      <ion-item>
+        <ion-label>Saída</ion-label>
+        <ion-radio value="saida"></ion-radio>
+      </ion-item>
+-->
+    <ion-list>
+      <button ion-button color="ppa" block (click)="registrar('entrada')">Entrada</button>
+      <button ion-button color="ppa" block (click)="registrar('saida')" style="margin-top: 10%;">Saída</button>
+    </ion-list>
+  </div>
+</ion-content>

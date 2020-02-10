@@ -1,0 +1,41 @@
+page-tutor-chamado-pendente {
+
+  .scroll-content{
+    background: color($colors,  background-page);
+}
+
+
+.toolbar-background{
+  background: color($colors, toolbar-color);
+}
+
+.button-inner, .toolbar-title{
+  color: #FFFFFF;
+}
+
+.content-list{
+  width: 90%;
+  height: 100%;
+  margin: 0 5% 0 5%;
+}
+
+
+  .item.item-block{
+    color: #FFFFFF;
+    background: transparent;
+  }
+
+  .sliding{
+    border-bottom: 1px solid white;
+  }
+  .sliding p{
+    color: #FFFFFF;
+    font-size: 0.8em;
+  }
+
+  .chamado-atendimento p{
+    color: rgb(255, 255, 0);
+  }
+
+
+}
