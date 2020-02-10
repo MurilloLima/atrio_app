@@ -1,1 +1,168 @@
-webpackJsonp([7],{430:function(n,l,a){"use strict";function u(n){return o._22(0,[(n()(),o.Z(0,0,null,null,13,"ion-list",[],null,null,null,null,null)),o.Y(1,16384,null,0,v.a,[C.a,o.j,o.z,Y.a,j.l,P.a],null,null),(n()(),o._20(-1,null,["\n    "])),(n()(),o.Z(3,0,null,null,9,"ion-item",[["class","item item-block"]],null,null,null,Z.b,Z.a)),o.Y(4,1097728,null,3,y.a,[x.a,C.a,o.j,o.z,[2,A.a]],null,null),o._18(335544320,1,{contentLabel:0}),o._18(603979776,2,{_buttons:1}),o._18(603979776,3,{_icons:1}),o.Y(8,16384,null,0,q.a,[],null,null),(n()(),o._20(9,2,["\n      ","\n      "])),(n()(),o.Z(10,0,null,4,1,"ion-icon",[["item-end",""],["name","trash"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(n,l,a){var u=!0;if("click"===l){u=!1!==n.component.cancelarChamado(n.context.$implicit)&&u}return u},null,null)),o.Y(11,147456,[[3,4]],0,z.a,[C.a,o.j,o.z],{name:[0,"name"]},null),(n()(),o._20(-1,2,["\n    "])),(n()(),o._20(-1,null,["\n\n  "]))],function(n,l){n(l,11,0,"trash")},function(n,l){n(l,9,0,l.context.$implicit.nameMatter);n(l,10,0,o._13(l,11)._hidden)})}function t(n){return o._22(0,[(n()(),o.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),o.Y(1,16384,null,0,B.a,[C.a,o.j,o.z,[2,w.a]],null,null),(n()(),o._20(-1,null,["\n\n  "])),(n()(),o.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,F.b,F.a)),o.Y(4,49152,null,0,V.a,[W.a,[2,w.a],[2,I.a],C.a,o.j,o.z],null,null),(n()(),o._20(-1,3,["\n    "])),(n()(),o.Z(6,0,null,3,2,"ion-title",[],null,null,null,M.b,M.a)),o.Y(7,49152,null,0,O.a,[C.a,o.j,o.z,[2,S.a],[2,V.a]],null,null),(n()(),o._20(-1,0,["Atendimentos pendentes"])),(n()(),o._20(-1,3,["\n  "])),(n()(),o._20(-1,null,["\n\n"])),(n()(),o._20(-1,null,["\n\n\n"])),(n()(),o.Z(12,0,null,null,5,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,X.b,X.a)),o.Y(13,4374528,null,0,E.a,[C.a,Y.a,P.a,o.j,o.z,W.a,H.a,o.u,[2,w.a],[2,I.a]],null,null),(n()(),o._20(-1,1,["\n\n  "])),(n()(),o.U(16777216,null,1,1,null,u)),o.Y(16,802816,null,0,N.i,[o.I,o.F,o.p],{ngForOf:[0,"ngForOf"]},null),(n()(),o._20(-1,1,["\n\n"])),(n()(),o._20(-1,null,["\n"]))],function(n,l){n(l,16,0,l.component.chamadosPendentes)},function(n,l){n(l,3,0,o._13(l,4)._hidden,o._13(l,4)._sbPadding);n(l,12,0,o._13(l,13).statusbarPadding,o._13(l,13)._hasRefresher)})}Object.defineProperty(l,"__esModule",{value:!0});var o=a(0),e=(a(1),a(58),a(59)),s=a(60),i=a(43),c=function(){function n(n,l,a,u,t){this.conexaoApi=n,this.navCtrl=l,this.navParams=a,this.utilsPr=u,this.statusBar=t,this.chamadosPendentes=[],this.statusBar.overlaysWebView(!1),this.statusBar.backgroundColorByHexString("#311734")}return n.prototype.ionViewWillEnter=function(){this.statusBar.overlaysWebView(!1),this.statusBar.backgroundColorByHexString("#311734"),this.chamadosPendentes=this.navParams.get("callsPending")},n.prototype.cancelarChamado=function(n){var l=this;this.conexaoApi.requisitionCancel(this.navParams.get("access_token"),n.idCall).then(function(n){l.utilsPr.alertInformation(n.message),l.navCtrl.pop()}).catch(function(n){l.utilsPr.alertError("Não foi possível cancelar essa chamado. Tente novamente!")})},n}(),r=function(){return function(){}}(),d=a(388),b=a(389),_=a(390),h=a(391),m=a(392),p=a(393),f=a(394),g=a(395),k=a(396),v=a(62),C=a(3),Y=a(5),j=a(8),P=a(11),Z=a(117),y=a(19),x=a(15),A=a(52),q=a(70),z=a(51),B=a(175),w=a(7),F=a(441),V=a(69),W=a(10),I=a(28),M=a(442),O=a(172),S=a(84),X=a(174),E=a(29),H=a(38),N=a(17),T=a(16),U=o.X({encapsulation:2,styles:[],data:{}}),$=o.V("page-atendimento-usuario-pendente",c,function(n){return o._22(0,[(n()(),o.Z(0,0,null,null,1,"page-atendimento-usuario-pendente",[],null,null,null,t,U)),o.Y(1,49152,null,0,c,[s.a,I.a,T.a,e.a,i.a],null,null)],null,null)},{},{},[]),J=a(18),L=a(173),R=a(61);a.d(l,"AtendimentoUsuarioPendentePageModuleNgFactory",function(){return D});var D=o.W(r,[],function(n){return o._10([o._11(512,o.i,o.S,[[8,[d.a,b.a,_.a,h.a,m.a,p.a,f.a,g.a,k.a,$]],[3,o.i],o.s]),o._11(4608,N.l,N.k,[o.r,[2,N.t]]),o._11(4608,J.q,J.q,[]),o._11(4608,J.d,J.d,[]),o._11(512,N.b,N.b,[]),o._11(512,J.o,J.o,[]),o._11(512,J.g,J.g,[]),o._11(512,J.m,J.m,[]),o._11(512,L.a,L.a,[]),o._11(512,L.b,L.b,[]),o._11(512,r,r,[]),o._11(256,R.a,c,[])])})},441:function(n,l,a){"use strict";function u(n){return t._22(0,[(n()(),t.Z(0,0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),t.Y(1,278528,null,0,o.h,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(n()(),t.Z(2,0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(n,l,a){var u=!0;if("click"===l){u=!1!==n.component.backButtonClick(a)&&u}return u},e.b,e.a)),t.Y(3,278528,null,0,o.h,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t.Y(4,1097728,null,0,s.a,[[8,"bar-button"],i.a,t.j,t.z],null,null),(n()(),t.Z(5,0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t.Y(6,278528,null,0,o.h,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t.Y(7,147456,null,0,c.a,[i.a,t.j,t.z],{name:[0,"name"]},null),(n()(),t.Z(8,0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),t.Y(9,278528,null,0,o.h,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(n()(),t._20(10,null,["",""])),t._12(null,0),t._12(null,1),t._12(null,2),(n()(),t.Z(14,0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),t.Y(15,278528,null,0,o.h,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._12(null,3)],function(n,l){var a=l.component;n(l,1,0,"toolbar-background","toolbar-background-"+a._mode);n(l,3,0,"back-button","back-button-"+a._mode);n(l,6,0,"back-button-icon","back-button-icon-"+a._mode);n(l,7,0,a._bbIcon);n(l,9,0,"back-button-text","back-button-text-"+a._mode);n(l,15,0,"toolbar-content","toolbar-content-"+a._mode)},function(n,l){var a=l.component;n(l,2,0,a._hideBb);n(l,5,0,t._13(l,7)._hidden);n(l,10,0,a._backText)})}a.d(l,"a",function(){return r}),l.b=u;var t=a(0),o=a(17),e=a(35),s=a(22),i=a(3),c=a(51),r=(a(7),a(28),t.X({encapsulation:2,styles:[],data:{}}))},442:function(n,l,a){"use strict";function u(n){return t._22(2,[(n()(),t.Z(0,0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),t.Y(1,278528,null,0,o.h,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._12(null,0)],function(n,l){n(l,1,0,"toolbar-title","toolbar-title-"+l.component._mode)},null)}a.d(l,"a",function(){return e}),l.b=u;var t=a(0),o=a(17),e=(a(3),t.X({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([7],{
+
+/***/ 590:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AtendimentoUsuarioPageModule", function() { return AtendimentoUsuarioPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__atendimento_usuario__ = __webpack_require__(602);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var AtendimentoUsuarioPageModule = /** @class */ (function () {
+    function AtendimentoUsuarioPageModule() {
+    }
+    AtendimentoUsuarioPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__atendimento_usuario__["a" /* AtendimentoUsuarioPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__atendimento_usuario__["a" /* AtendimentoUsuarioPage */]),
+            ],
+        })
+    ], AtendimentoUsuarioPageModule);
+    return AtendimentoUsuarioPageModule;
+}());
+
+//# sourceMappingURL=atendimento-usuario.module.js.map
+
+/***/ }),
+
+/***/ 602:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AtendimentoUsuarioPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__providers_utils_utils__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__model_usuario__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_storage_storage__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_conexao_api_conexao_api__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser__ = __webpack_require__(36);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__ = __webpack_require__(68);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+var AtendimentoUsuarioPage = /** @class */ (function () {
+    function AtendimentoUsuarioPage(conexaoApi, domSanitizer, navCtrl, storage, statusBar, utilsPr) {
+        this.conexaoApi = conexaoApi;
+        this.domSanitizer = domSanitizer;
+        this.navCtrl = navCtrl;
+        this.storage = storage;
+        this.statusBar = statusBar;
+        this.utilsPr = utilsPr;
+        this.usuario = new __WEBPACK_IMPORTED_MODULE_3__model_usuario__["a" /* Usuario */]();
+    }
+    AtendimentoUsuarioPage.prototype.ionViewWillEnter = function () {
+        var _this = this;
+        // let status bar overlay webview
+        this.statusBar.overlaysWebView(false);
+        // set status bar to white
+        this.statusBar.backgroundColorByHexString('#311734');
+        this.storage.getInfo("usuario")
+            .then(function (usuario) {
+            _this.usuario = usuario;
+            var img_user_64 = "data:image/png+xml;base64,";
+            img_user_64 += _this.usuario.image;
+            _this.image_user_toolbar = _this.domSanitizer.bypassSecurityTrustUrl(img_user_64);
+            _this.conexaoApi.tutorsJob(_this.usuario.token.access_token)
+                .then(function (tutores) {
+                _this.listTutorDisponivel = tutores.json();
+                _this.convertImageTo64(_this.listTutorDisponivel);
+            })
+                .catch(function (error) { return _this.utilsPr.alertInformation('Não há tutores disponíveis!'); });
+        });
+    };
+    AtendimentoUsuarioPage.prototype.solicitarAtendimento = function () {
+        var _this = this;
+        this.utilsPr.getLocation()
+            .then(function (coordenadas) {
+            _this.conexaoApi.requisition(_this.usuario.token.access_token, _this.usuario.id, coordenadas.lat, coordenadas.long)
+                .then(function (requisition) {
+                //Retorna as matérias que o aluno pode solicitar atendimento. Envia a lista para página de seleção
+                //Após seleção da matéria, acessa a pagina para aluno escolher a matéria e solicitar o atendimento
+                _this.navCtrl.push('AtendimentoUsuarioMateriaPage', { requisition: requisition });
+            })
+                .catch(function (error) {
+                if (error.status == 401) {
+                    _this.utilsPr.alertInformation(error.json().message);
+                }
+                else {
+                    _this.utilsPr.alertError("Ocorreu um erro ao solicitar o atendimento. Tente novamente!");
+                }
+            });
+        })
+            .catch(function () {
+            _this.utilsPr.alertError("Não foi possível acessar a localização do aparelho!");
+        });
+    };
+    AtendimentoUsuarioPage.prototype.chamadosPendentes = function () {
+        var _this = this;
+        this.conexaoApi.myCallsDatePending(this.usuario.token.access_token)
+            .then(function (callsPending) {
+            if (callsPending.length > 0) {
+                //Lista os chamados pendentes e chama a tela para listar os chamados. Na tela é possível cancelar cada chamado
+                _this.navCtrl.push('AtendimentoUsuarioPendentePage', { callsPending: callsPending, access_token: _this.usuario.token.access_token });
+            }
+            else {
+                _this.utilsPr.alertInformation("Não há chamados pendentes!");
+            }
+        })
+            .catch(function () {
+            _this.utilsPr.alertError("Não foi possível listar os chamados pendentes. Tente novamente!");
+        });
+    };
+    AtendimentoUsuarioPage.prototype.convertImageTo64 = function (listTutor) {
+        for (var i = 0; i < listTutor.length; i++) {
+            var img_user_64 = "";
+            img_user_64 = "data:image/png+xml;base64,";
+            img_user_64 += this.listTutorDisponivel[i].image;
+            var image = this.listTutorDisponivel[i].image;
+            image == null || image == "" ? image = "assets/imgs/no-photo.jpg"
+                : image = this.domSanitizer.bypassSecurityTrustUrl(img_user_64);
+            //console.log("Image: ", image);
+            this.listTutorDisponivel[i].image = image;
+            //this.image_user_toolbar = this.listTutorDisponivel[0].image;
+        }
+    };
+    AtendimentoUsuarioPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
+            selector: 'page-atendimento-usuario',template:/*ion-inline-start:"C:\Users\M4Sistemas\Downloads\ppa-ionic-ios-master\ppa-ionic-ios-master\src\pages\atendimento-usuario\atendimento-usuario.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>PPA</ion-title>\n\n    <ion-buttons end>\n      <button ion-button color="primary" icon-only>\n        <img class="img-toolbar" [src]="image_user_toolbar" width="37" height="37" />\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding class="content">\n\n  <div class="div-informativo">\n    <h1>Plataforma\n      <br> Adaptativa\n    </h1>\n  </div>\n\n  <div class="div-atendimento">\n    <button ion-button block clear (click)="solicitarAtendimento()">Solicitar atendimento</button>\n    <button ion-button block clear (click)="chamadosPendentes()">Atendimentos pendentes</button>\n  </div>\n\n  <div class="div-mentor">\n    <h5 text-center>Tutores Disponíveis</h5>\n    <ion-row>\n      <ion-col col-4 *ngFor="let td of listTutorDisponivel" text-center>\n        <img [src]="td.image" class="info-user-foto" />\n        <p>{{td.name}} </p>\n      </ion-col>\n    </ion-row>\n  </div>\n\n\n  <!--\n<h1 text-center color="light">Plataforma <br>Adaptativa</h1>\n*ngFor="let td of listTutorDisponivel"\n  <button ion-button block (click)="solicitarAtendimento()">Solicitar atendimento</button>\n  <button ion-button block (click)="chamadosPendentes()">Atendimentos pendentes</button>\n\n  <h3>Tutores Disponíveis</h3>\n  <ion-list *ngFor="let td of listTutorDisponivel">\n    <ion-item>\n      <ion-avatar>\n        <img [src]="td.image" />\n        {{td.name}}\n      </ion-avatar>\n    </ion-item>\n  </ion-list>\n-->\n</ion-content>'/*ion-inline-end:"C:\Users\M4Sistemas\Downloads\ppa-ionic-ios-master\ppa-ionic-ios-master\src\pages\atendimento-usuario\atendimento-usuario.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_5__providers_conexao_api_conexao_api__["a" /* ConexaoApiProvider */], __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser__["c" /* DomSanitizer */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_storage_storage__["a" /* StorageProvider */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_0__providers_utils_utils__["a" /* UtilsProvider */]])
+    ], AtendimentoUsuarioPage);
+    return AtendimentoUsuarioPage;
+}());
+
+//# sourceMappingURL=atendimento-usuario.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=7.js.map

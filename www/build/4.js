@@ -1,1 +1,537 @@
-webpackJsonp([4],{433:function(l,n,u){"use strict";function a(l){return e._22(0,[(l()(),e.Z(0,0,null,null,1,"ion-icon",[["name","md-grid"],["role","img"]],[[2,"hide",null]],null,null,null,null)),e.Y(1,147456,null,0,Z.a,[C.a,e.j,e.z],{name:[0,"name"]},null)],function(l,n){l(n,1,0,"md-grid")},function(l,n){l(n,0,0,e._13(n,1)._hidden)})}function t(l){return e._22(0,[(l()(),e.Z(0,0,null,null,1,"ion-icon",[["name","md-albums"],["role","img"]],[[2,"hide",null]],null,null,null,null)),e.Y(1,147456,null,0,Z.a,[C.a,e.j,e.z],{name:[0,"name"]},null)],function(l,n){l(n,1,0,"md-albums")},function(l,n){l(n,0,0,e._13(n,1)._hidden)})}function o(l){return e._22(0,[(l()(),e.Z(0,0,null,null,7,"ion-col",[["class","col"]],[[1,"col-6",0],[1,"col-12",0]],null,null,null,null)),e.Y(1,16384,null,0,w.a,[],null,null),(l()(),e._20(-1,null,["\n        "])),(l()(),e.Z(3,0,null,null,3,"div",[],null,null,null,null,null)),(l()(),e._20(-1,null,["\n          "])),(l()(),e.Z(5,0,null,null,0,"img",[],[[8,"src",4]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.viewPhoto(l.context.$implicit.img)&&a}return a},null,null)),(l()(),e._20(-1,null,["\n        "])),(l()(),e._20(-1,null,["\n\n      "]))],null,function(l,n){var u=n.component;l(n,0,0,!!u.grid||null,!u.grid||null);l(n,5,0,e._2(1,"",n.context.$implicit.img,""))})}function s(l){return e._22(0,[(l()(),e.Z(0,0,null,null,9,"ion-grid",[["class","grid"]],null,null,null,null,null)),e.Y(1,16384,null,0,I.a,[],null,null),(l()(),e._20(-1,null,["\n    "])),(l()(),e.Z(3,0,null,null,5,"ion-row",[["class","row"]],null,null,null,null,null)),e.Y(4,16384,null,0,y.a,[],null,null),(l()(),e._20(-1,null,["\n      "])),(l()(),e.U(16777216,null,null,1,null,o)),e.Y(7,802816,null,0,z.i,[e.I,e.F,e.p],{ngForOf:[0,"ngForOf"]},null),(l()(),e._20(-1,null,["\n    "])),(l()(),e._20(-1,null,["\n  "]))],function(l,n){l(n,7,0,n.component.images)},null)}function i(l){return e._22(0,[(l()(),e.Z(0,0,null,null,25,"ion-header",[],null,null,null,null,null)),e.Y(1,16384,null,0,q.a,[C.a,e.j,e.z,[2,x.a]],null,null),(l()(),e._20(-1,null,["\n\n  "])),(l()(),e.Z(3,0,null,null,21,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,F.b,F.a)),e.Y(4,49152,null,0,A.a,[B.a,[2,x.a],[2,P.a],C.a,e.j,e.z],null,null),(l()(),e._20(-1,3,["\n    "])),(l()(),e.Z(6,0,null,3,2,"ion-title",[],null,null,null,U.b,U.a)),e.Y(7,49152,null,0,V.a,[C.a,e.j,e.z,[2,O.a],[2,A.a]],null,null),(l()(),e._20(-1,0,["Espaço"])),(l()(),e._20(-1,3,["\n    "])),(l()(),e.Z(10,0,null,2,13,"ion-buttons",[["end",""]],null,null,null,null,null)),e.Y(11,16384,null,1,X.a,[C.a,e.j,e.z,[2,O.a],[2,A.a]],null,null),e._18(603979776,1,{_buttons:1}),(l()(),e._20(-1,null,["\n      "])),(l()(),e.Z(14,0,null,null,8,"button",[["icon-only",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.changeGrid()&&a}return a},E.b,E.a)),e.Y(15,1097728,[[1,4]],0,G.a,[[8,""],C.a,e.j,e.z],null,null),(l()(),e._20(-1,0,["\n        "])),(l()(),e.U(16777216,null,0,1,null,a)),e.Y(18,16384,null,0,z.j,[e.I,e.F],{ngIf:[0,"ngIf"]},null),(l()(),e._20(-1,0,["\n        "])),(l()(),e.U(16777216,null,0,1,null,t)),e.Y(21,16384,null,0,z.j,[e.I,e.F],{ngIf:[0,"ngIf"]},null),(l()(),e._20(-1,0,["\n      "])),(l()(),e._20(-1,null,["\n    "])),(l()(),e._20(-1,3,["\n  "])),(l()(),e._20(-1,null,["\n\n"])),(l()(),e._20(-1,null,["\n\n"])),(l()(),e.Z(27,0,null,null,5,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,M.b,M.a)),e.Y(28,4374528,null,0,R.a,[C.a,S.a,W.a,e.j,e.z,B.a,$.a,e.u,[2,x.a],[2,P.a]],null,null),(l()(),e._20(-1,1,["\n  "])),(l()(),e.U(16777216,null,1,1,null,s)),e.Y(31,16384,null,0,z.j,[e.I,e.F],{ngIf:[0,"ngIf"]},null),(l()(),e._20(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,18,0,!u.grid);l(n,21,0,u.grid);l(n,31,0,u.images)},function(l,n){l(n,3,0,e._13(n,4)._hidden,e._13(n,4)._sbPadding);l(n,27,0,e._13(n,28).statusbarPadding,e._13(n,28)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var e=u(0),c=(u(1),u(58),u(43)),r=u(182),g=u(183),_=function(){function l(l,n,u){this.photoViewer=l,this.file=n,this.statusBar=u,this.images=[{img:"assets/imgs/espaco/29.jpg"},{img:"assets/imgs/espaco/34.jpg"},{img:"assets/imgs/espaco/13.jpg"},{img:"assets/imgs/espaco/12.jpg"},{img:"assets/imgs/espaco/6.jpg"},{img:"assets/imgs/espaco/35.jpg"},{img:"assets/imgs/espaco/36.jpg"},{img:"assets/imgs/espaco/3.jpg"},{img:"assets/imgs/espaco/2.jpg"},{img:"assets/imgs/espaco/32.jpg"},{img:"assets/imgs/espaco/33.jpg"}],this.grid=!0,this.statusBar.overlaysWebView(!1),this.statusBar.backgroundColorByHexString("#311734")}return l.prototype.viewPhoto=function(l){this.photoViewer.show(decodeURI(this.file.applicationDirectory+"www/"+l))},l.prototype.changeGrid=function(){this.grid=!this.grid},l}(),d=function(){return function(){}}(),b=u(388),m=u(389),p=u(390),f=u(391),h=u(392),k=u(393),j=u(394),Y=u(395),v=u(396),Z=u(51),C=u(3),w=u(119),I=u(188),y=u(120),z=u(17),q=u(175),x=u(7),F=u(441),A=u(69),B=u(10),P=u(28),U=u(442),V=u(172),O=u(84),X=u(178),E=u(35),G=u(22),M=u(174),R=u(29),S=u(5),W=u(11),$=u(38),D=e.X({encapsulation:2,styles:[],data:{}}),H=e.V("page-espaco",_,function(l){return e._22(0,[(l()(),e.Z(0,0,null,null,1,"page-espaco",[],null,null,null,i,D)),e.Y(1,49152,null,0,_,[r.a,g.a,c.a],null,null)],null,null)},{},{},[]),J=u(18),N=u(173),T=u(61);u.d(n,"EspacoPageModuleNgFactory",function(){return K});var K=e.W(d,[],function(l){return e._10([e._11(512,e.i,e.S,[[8,[b.a,m.a,p.a,f.a,h.a,k.a,j.a,Y.a,v.a,H]],[3,e.i],e.s]),e._11(4608,z.l,z.k,[e.r,[2,z.t]]),e._11(4608,J.q,J.q,[]),e._11(4608,J.d,J.d,[]),e._11(512,z.b,z.b,[]),e._11(512,J.o,J.o,[]),e._11(512,J.g,J.g,[]),e._11(512,J.m,J.m,[]),e._11(512,N.a,N.a,[]),e._11(512,N.b,N.b,[]),e._11(512,d,d,[]),e._11(256,T.a,_,[])])})},441:function(l,n,u){"use strict";function a(l){return t._22(0,[(l()(),t.Z(0,0,null,null,1,"div",[["class","toolbar-background"]],null,null,null,null,null)),t.Y(1,278528,null,0,o.h,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t.Z(2,0,null,null,8,"button",[["class","back-button"],["ion-button","bar-button"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.backButtonClick(u)&&a}return a},s.b,s.a)),t.Y(3,278528,null,0,o.h,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t.Y(4,1097728,null,0,i.a,[[8,"bar-button"],e.a,t.j,t.z],null,null),(l()(),t.Z(5,0,null,0,2,"ion-icon",[["class","back-button-icon"],["role","img"]],[[2,"hide",null]],null,null,null,null)),t.Y(6,278528,null,0,o.h,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t.Y(7,147456,null,0,c.a,[e.a,t.j,t.z],{name:[0,"name"]},null),(l()(),t.Z(8,0,null,0,2,"span",[["class","back-button-text"]],null,null,null,null,null)),t.Y(9,278528,null,0,o.h,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),(l()(),t._20(10,null,["",""])),t._12(null,0),t._12(null,1),t._12(null,2),(l()(),t.Z(14,0,null,null,2,"div",[["class","toolbar-content"]],null,null,null,null,null)),t.Y(15,278528,null,0,o.h,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._12(null,3)],function(l,n){var u=n.component;l(n,1,0,"toolbar-background","toolbar-background-"+u._mode);l(n,3,0,"back-button","back-button-"+u._mode);l(n,6,0,"back-button-icon","back-button-icon-"+u._mode);l(n,7,0,u._bbIcon);l(n,9,0,"back-button-text","back-button-text-"+u._mode);l(n,15,0,"toolbar-content","toolbar-content-"+u._mode)},function(l,n){var u=n.component;l(n,2,0,u._hideBb);l(n,5,0,t._13(n,7)._hidden);l(n,10,0,u._backText)})}u.d(n,"a",function(){return r}),n.b=a;var t=u(0),o=u(17),s=u(35),i=u(22),e=u(3),c=u(51),r=(u(7),u(28),t.X({encapsulation:2,styles:[],data:{}}))},442:function(l,n,u){"use strict";function a(l){return t._22(2,[(l()(),t.Z(0,0,null,null,2,"div",[["class","toolbar-title"]],null,null,null,null,null)),t.Y(1,278528,null,0,o.h,[t.p,t.q,t.j,t.A],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),t._12(null,0)],function(l,n){l(n,1,0,"toolbar-title","toolbar-title-"+n.component._mode)},null)}u.d(n,"a",function(){return s}),n.b=a;var t=u(0),o=u(17),s=(u(3),t.X({encapsulation:2,styles:[],data:{}}))}});
+webpackJsonp([4],{
+
+/***/ 598:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "GraficoGerencialPageModule", function() { return GraficoGerencialPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__grafico_gerencial__ = __webpack_require__(608);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var GraficoGerencialPageModule = /** @class */ (function () {
+    function GraficoGerencialPageModule() {
+    }
+    GraficoGerencialPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__grafico_gerencial__["a" /* GraficoGerencialPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__grafico_gerencial__["a" /* GraficoGerencialPage */]),
+            ],
+        })
+    ], GraficoGerencialPageModule);
+    return GraficoGerencialPageModule;
+}());
+
+//# sourceMappingURL=grafico-gerencial.module.js.map
+
+/***/ }),
+
+/***/ 608:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GraficoGerencialPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__providers_grafico_grafico_manager_tutor__ = __webpack_require__(411);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_chart_js__ = __webpack_require__(410);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_chart_js___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_chart_js__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ionic_angular__ = __webpack_require__(47);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__model_usuario__ = __webpack_require__(153);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_storage_storage__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_grafico_grafico_manager_chamado__ = __webpack_require__(412);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_grafico_grafico_manager_materia__ = __webpack_require__(413);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_grafico_grafico_utils__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__providers_grafico_grafico_manager_aluno__ = __webpack_require__(414);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_observable_timer__ = __webpack_require__(155);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_rxjs_observable_timer___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_rxjs_observable_timer__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_utils_utils__ = __webpack_require__(87);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+var GraficoGerencialPage = /** @class */ (function () {
+    function GraficoGerencialPage(graUtils, grGerCha, grGerMat, grGerAl, grGerTut, loadingCtrl, statusBar, storage, utilsPr) {
+        this.graUtils = graUtils;
+        this.grGerCha = grGerCha;
+        this.grGerMat = grGerMat;
+        this.grGerAl = grGerAl;
+        this.grGerTut = grGerTut;
+        this.loadingCtrl = loadingCtrl;
+        this.statusBar = statusBar;
+        this.storage = storage;
+        this.utilsPr = utilsPr;
+        this.page = 1;
+        this.perPage = 0;
+        /* tslint:disable:no-unused-variable */
+        this.totalPage = 0;
+        this.usuario = new __WEBPACK_IMPORTED_MODULE_5__model_usuario__["a" /* Usuario */]();
+    }
+    GraficoGerencialPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        // let status bar overlay webview
+        this.statusBar.overlaysWebView(false);
+        // set status bar to white
+        this.statusBar.backgroundColorByHexString('#311734');
+        this.iniciarProcesso();
+        this.storage.getInfo("usuario")
+            .then(function (usuario) {
+            _this.usuario = usuario;
+            //this.teste();
+        });
+    };
+    GraficoGerencialPage.prototype.exibirPeriodo = function (tipo) {
+        this.viewPeriodo = !this.viewPeriodo;
+        this.viewRestartParametros = !this.viewRestartParametros;
+        this.viewEspecificacaoGrafico = !this.viewEspecificacaoGrafico;
+        this.tipoEspecificacao = tipo;
+        this.titulo = this.opcaoGrafico[this.tipoEspecificacao - 1].titulo;
+    };
+    //Ao escolher período, validar se é necessário chamar o método para buscar os valores dos gráficos
+    GraficoGerencialPage.prototype.validarPeriodo = function () {
+        if (this.dtIniGrafico != null && this.dtFimGrafico != null) {
+            //Libera opção para visualizar graficos do chamado
+            //
+            this.validarOpcaoGrafico();
+            //this.materiaTeste();
+        }
+    };
+    GraficoGerencialPage.prototype.validarOpcaoGrafico = function () {
+        var _this = this;
+        //Opção de chamado
+        if (this.tipoEspecificacao == 1) {
+            this.viewGraficoChamado = true;
+            this.viewPeriodo = false;
+            this.titulo = this.opcaoGrafico[this.tipoEspecificacao - 1].titulo;
+            this.graficoChamado();
+        }
+        else {
+            if (this.tipoEspecificacao == 2) {
+                this.titulo = this.opcaoGrafico[this.tipoEspecificacao - 1].titulo;
+                var loading_1 = this.loadingCtrl.create({
+                    spinner: 'bubbles',
+                    content: 'Aguarde, carregando os dados...'
+                });
+                loading_1.present();
+                //Listar exibição de parâmetros para matéria
+                this.graUtils.dashboardSelectParams(this.usuario.token.access_token, "Por matéria")
+                    .then(function (data) {
+                    loading_1.dismiss();
+                    //ao usar o loading, o ion-list fica estático. Necessário dar um timer para que o loading
+                    //saia da tela totalmente para depois continuar. Deve ser feito com ion-list com vários itens
+                    Object(__WEBPACK_IMPORTED_MODULE_11_rxjs_observable_timer__["timer"])(300).subscribe(function () {
+                        _this.listMateria = data.items;
+                        _this.viewPeriodo = false;
+                        _this.viewEspecificacaoMateria = true;
+                    });
+                })
+                    .catch(function (error) {
+                    loading_1.dismiss();
+                    _this.utilsPr.alertError("Não foi possível carregar os dados!");
+                });
+            }
+            else {
+                if (this.tipoEspecificacao == 3) {
+                    this.viewGraficoChamado = false;
+                    this.viewPeriodo = false;
+                    this.titulo = this.opcaoGrafico[this.tipoEspecificacao - 1].titulo;
+                    var loading_2 = this.loadingCtrl.create({
+                        spinner: 'bubbles',
+                        content: 'Aguarde, carregando os dados...'
+                    });
+                    loading_2.present();
+                    //Listar exibição de parâmetros para aluno
+                    this.graUtils.dashboardSelectParams(this.usuario.token.access_token, "Por aluno")
+                        .then(function (data) {
+                        loading_2.dismiss();
+                        _this.viewEspecificacaoAluno = true;
+                        _this.listParametroResult = data.items;
+                        for (var i = 0; i <= 20; i++) {
+                            _this.listParametro.push(_this.listParametroResult[i]);
+                        }
+                        _this.perPage = 20;
+                        _this.totalPage = 20;
+                    })
+                        .catch(function (error) {
+                        loading_2.dismiss();
+                        _this.utilsPr.alertError("Não foi possível carregar os dados!");
+                    });
+                }
+                else {
+                    this.viewGraficoChamado = false;
+                    this.viewPeriodo = false;
+                    this.titulo = this.opcaoGrafico[this.tipoEspecificacao - 1].titulo;
+                    var loading_3 = this.loadingCtrl.create({
+                        spinner: 'bubbles',
+                        content: 'Aguarde, carregando os dados...'
+                    });
+                    loading_3.present();
+                    this.graUtils.dashboardSelectParams(this.usuario.token.access_token, "Por tutor")
+                        .then(function (data) {
+                        loading_3.dismiss();
+                        _this.viewEspecificacaoAluno = true;
+                        _this.listParametroResult = data.items;
+                        for (var i = 0; i <= 20; i++) {
+                            _this.listParametro.push(_this.listParametroResult[i]);
+                        }
+                        _this.perPage = 20;
+                        //this.totalData = this.listAlunoResult.length;
+                        _this.totalPage = 20;
+                    })
+                        .catch(function (error) {
+                        loading_3.dismiss();
+                        _this.utilsPr.alertError("Não foi possível carregar os dados!");
+                    });
+                }
+            }
+        }
+    };
+    //CHAMADA DE MÉTODOS PARA CHAMADOS
+    GraficoGerencialPage.prototype.graficoChamado = function () {
+        var _this = this;
+        var loading = this.loadingCtrl.create({
+            spinner: 'bubbles',
+            content: 'Aguarde, gerando os gráficos...'
+        });
+        loading.present();
+        //GRÁFICO DE OPÇÃO CHAMADO
+        //Chamados por matéria
+        this.grGerCha.dashboardCallsToMatter(this.usuario.token.access_token, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.doughnutChamadoPorMateria.nativeElement, data);
+        })
+            .catch(function () {
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados dográfico 'Chamados por materia'");
+        });
+        //Chamados por tutor
+        this.grGerCha.dashboardCallsToDest(this.usuario.token.access_token, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.doughnutChamadoPorTutor.nativeElement, data);
+        })
+            .catch(function () {
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados dográfico 'Chamados por tutor'");
+        });
+        //Chamados por Hora
+        this.grGerCha.dashboardCallsToHour(this.usuario.token.access_token, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.lineChamadoPorHora.nativeElement, data);
+        })
+            .catch(function () {
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados dográfico 'Chamados por hora'");
+        });
+        //Top 10 alunos mais chamados
+        this.grGerCha.dashboardCallsToOriTopTenDesc(this.usuario.token.access_token, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.barTopTenAlMaCh.nativeElement, data);
+        })
+            .catch(function () {
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados dográfico 'Top 10 alunos com mais chamados'");
+        });
+        //Top 10 alunos menos chamados
+        this.grGerCha.dashboardCallsToOriTopTen(this.usuario.token.access_token, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.barTopLessTenAlMaCh.nativeElement, data);
+            loading.dismiss();
+        })
+            .catch(function () {
+            loading.dismiss();
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados dográfico 'Top 10 alunos com menos chamados'");
+        });
+    };
+    //CHAMADA DE MÉTODOS PARA MATÉRIA
+    GraficoGerencialPage.prototype.graficoMateria = function (idMatter, nameMatter) {
+        var _this = this;
+        var loading = this.loadingCtrl.create({
+            spinner: 'bubbles',
+            content: 'Aguarde, gerando os gráficos...'
+        });
+        loading.present();
+        this.viewGraficoMateria = true;
+        this.viewEspecificacaoMateria = false;
+        this.materia = nameMatter;
+        //Qtde de atendimentos tutores por matéria
+        this.grGerMat.dashboardCallsToMatter(this.usuario.token.access_token, idMatter, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.doughnutMatAtTut.nativeElement, data);
+        })
+            .catch(function () {
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados do gráfico 'Atendimentos tutores'!");
+        });
+        //Qtde classificação duvidas por matéria
+        this.grGerMat.dashboardCallsToReasonMatter(this.usuario.token.access_token, idMatter, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.doughnutMatDuvMat.nativeElement, data);
+        })
+            .catch(function () {
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados dográfico 'Classificação de dúvidas'!");
+        });
+        //Top 10 alunos com mais chamados por matéria
+        this.grGerMat.dashboardCallsToMatterTopTenDesc(this.usuario.token.access_token, idMatter, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.barMatTenMaCh.nativeElement, data);
+        })
+            .catch(function () {
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados dográfico 'Top 10 alunos com mais chamados por matéria'!");
+        });
+        //Top 10 alunos com menos chamados por matéria
+        this.grGerMat.dashboardCallsToMatterTopTenAsc(this.usuario.token.access_token, idMatter, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.barMatTenMeCh.nativeElement, data);
+        })
+            .catch(function () {
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados dográfico 'Top 10 alunos com menos chamados por matéria'!");
+        });
+        //Chamados por hora e matéria
+        this.grGerMat.dashboardCallsToHourMatter(this.usuario.token.access_token, idMatter, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.lineMatChHoMa.nativeElement, data);
+            loading.dismiss();
+        })
+            .catch(function () {
+            loading.dismiss();
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados dográfico 'Chamados por hora'!");
+        });
+    };
+    //Como o scroll infinito é usado por tutor e aluno, é necessário diferenciar, para chamar o gráfico correto
+    GraficoGerencialPage.prototype.validarGraficoAlunoTutor = function (id, name) {
+        if (this.tipoEspecificacao == 3) {
+            this.graficoAluno(id, name);
+        }
+        else {
+            if (this.tipoEspecificacao == 4) {
+                this.graficoTutor(id, name);
+            }
+        }
+    };
+    //CHAMADO DE GRÁFICOS GERENCIAL PARA ALUNO
+    GraficoGerencialPage.prototype.graficoAluno = function (idStudent, nameAluno) {
+        var _this = this;
+        var loading = this.loadingCtrl.create({
+            spinner: 'bubbles',
+            content: 'Aguarde, gerando os gráficos...'
+        });
+        loading.present();
+        this.name = nameAluno;
+        this.viewEspecificacaoAluno = false;
+        this.viewGraficoAluno = true;
+        //Chamados por aluno e matéria
+        this.grGerAl.dashboardCallsToStudentMatter(this.usuario.token.access_token, idStudent, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.doughnutAlChAlMa.nativeElement, data);
+        })
+            .catch(function () {
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados dográfico 'Chamados por matéria'!");
+        });
+        //Atendimento por classificação
+        this.grGerAl.dashboardStudentCallsClassification(this.usuario.token.access_token, idStudent, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            loading.dismiss();
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.doughnutAlAtePorClas.nativeElement, data);
+        })
+            .catch(function () {
+            loading.dismiss();
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados dográfico 'Atendimentos por classificação'!");
+        });
+    };
+    //GRÁFICOS PARA TUTOR
+    GraficoGerencialPage.prototype.graficoTutor = function (idTutor, nameTutor) {
+        var _this = this;
+        var loading = this.loadingCtrl.create({
+            spinner: 'bubbles',
+            content: 'Aguarde, gerando os gráficos...'
+        });
+        loading.present();
+        this.viewEspecificacaoAluno = false;
+        this.viewGraficoTutor = true;
+        this.name = nameTutor;
+        //Atendimento por matéria
+        this.grGerTut.dashboardCallsToTutorMatter(this.usuario.token.access_token, idTutor, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.doughnutTutChMat.nativeElement, data);
+        })
+            .catch(function () {
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados dográfico 'Chamados por matéria'!");
+        });
+        //Chamados por classificação
+        this.grGerTut.dashboardCallsToReasonTutor(this.usuario.token.access_token, idTutor, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.doughnutTutChCl.nativeElement, data);
+        })
+            .catch(function () {
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados dográfico 'Chamados por classificação'!");
+        });
+        //Atendimentos por hora e tutor
+        this.grGerTut.dashboardAnswearToHourTutor(this.usuario.token.access_token, idTutor, this.dtIniGrafico, this.dtFimGrafico)
+            .then(function (data) {
+            loading.dismiss();
+            new __WEBPACK_IMPORTED_MODULE_2_chart_js__["Chart"](_this.lineTutAtHoTut.nativeElement, data);
+        })
+            .catch(function () {
+            loading.dismiss();
+            _this.utilsPr.alertInformation("Não foi possível carregar os dados dográfico 'Chamados por hora'!");
+        });
+    };
+    //Inicia o processo de consulta de gráficos
+    GraficoGerencialPage.prototype.iniciarProcesso = function () {
+        //Listas
+        this.listParametro = [];
+        this.listParametroResult = [];
+        this.listMateria = [];
+        this.opcaoGrafico = [];
+        //Adiciona dados a opções do gráfico
+        this.opcaoGrafico[0] = ({ name: 'Chamados', tipo: 1, titulo: 'Chamados' });
+        this.opcaoGrafico[1] = ({ name: 'Por matéria', tipo: 2, titulo: 'Por Matéria' });
+        this.opcaoGrafico[2] = ({ name: 'Por aluno', tipo: 3, titulo: 'Por Aluno' });
+        this.opcaoGrafico[3] = ({ name: 'Por tutor', tipo: 4, titulo: 'Por Tutor' });
+        this.titulo = "";
+        //Seta as visualizações
+        this.viewEspecificacaoGrafico = true;
+        this.viewGraficoChamado = false;
+        this.viewEspecificacaoMateria = false;
+        this.viewPeriodo = false;
+        this.viewGraficoMateria = false;
+        this.viewEspecificacaoAluno = false;
+        this.viewGraficoAluno = false;
+        this.viewGraficoTutor = false;
+        this.viewRestartParametros = false;
+        //Datas
+        this.dtIniGrafico = null;
+        this.dtFimGrafico = null;
+    };
+    //**INFINITE SCROLL - listagem por etapas da lista de alunos e tutores ************************/
+    GraficoGerencialPage.prototype.doInfinite = function (infiniteScroll) {
+        var _this = this;
+        this.totalPage = this.page * 20;
+        setTimeout(function () {
+            var result = _this.listParametroResult.slice(_this.page * 20);
+            for (var i = 1; i <= _this.perPage; i++) {
+                if (result[i] != undefined) {
+                    _this.listParametro.push(result[i]);
+                }
+            }
+            _this.page += 1;
+            infiniteScroll.complete();
+        }, 2000);
+    };
+    //Procura itens na listagem de parametros
+    GraficoGerencialPage.prototype.procurarItems = function (ev) {
+        // set val to the value of the searchbar
+        var val = ev.target.value;
+        // if the value is an empty string don't filter the items
+        if (val && val.trim() != '') {
+            this.listParametro = this.listParametroResult.filter(function (item) {
+                return (item.name.toLowerCase().indexOf(val.toLowerCase()) > -1);
+            });
+        }
+    };
+    GraficoGerencialPage.prototype.cancelProcurar = function (ev) {
+        this.validarOpcaoGrafico();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("doughnutChamadoPorMateria"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "doughnutChamadoPorMateria", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("doughnutChamadoPorTutor"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "doughnutChamadoPorTutor", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("lineChamadoPorHora"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "lineChamadoPorHora", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("barTopTenAlMaCh"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "barTopTenAlMaCh", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("barTopLessTenAlMaCh"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "barTopLessTenAlMaCh", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("doughnutMatAtTut"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "doughnutMatAtTut", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("doughnutMatDuvMat"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "doughnutMatDuvMat", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("lineMatChHoMa"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "lineMatChHoMa", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("barMatTenMaCh"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "barMatTenMaCh", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("barMatTenMeCh"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "barMatTenMeCh", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("doughnutAlChAlMa"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "doughnutAlChAlMa", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("doughnutAlAtePorClas"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "doughnutAlAtePorClas", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("doughnutTutChMat"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "doughnutTutChMat", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("doughnutTutChCl"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "doughnutTutChCl", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["_8" /* ViewChild */])("lineTutAtHoTut"),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1__angular_core__["t" /* ElementRef */])
+    ], GraficoGerencialPage.prototype, "lineTutAtHoTut", void 0);
+    GraficoGerencialPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
+            selector: 'page-grafico-gerencial',template:/*ion-inline-start:"C:\Users\M4Sistemas\Downloads\ppa-ionic-ios-master\ppa-ionic-ios-master\src\pages\grafico-gerencial\grafico-gerencial.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>Gerencial</ion-title>\n\n    <ion-buttons end *ngIf="viewRestartParametros">\n      <button ion-button color="ligth" icon-only (click)="iniciarProcesso()">\n        <ion-icon name="close"></ion-icon>\n      </button>\n    </ion-buttons>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <!--<div class="content">\n    <div>\n      <ion-list *ngIf="viewEspecificacaoGrafico" no-lines class="list-info">\n        <h5 text-center>Selecione o tipo de análise desejada</h5>\n        <ion-item *ngFor="let opGr of opcaoGrafico">\n          {{opGr.name}}\n        </ion-item>\n      </ion-list>\n\n      <div *ngIf="viewPeriodo" class="list-info">\n        <h4 text-center>Análise {{titulo}}</h4>\n        <h5 text-center>Escolha o período</h5>\n\n        <ion-item no-lines>\n          <ion-label color="light" text-left>De:</ion-label>\n          <ion-datetime displayFormat="DD/MM/YY" pickerFormat="DD/MM/YYYY" [(ngModel)]="dtIniGrafico" doneText="OK">\n          </ion-datetime>\n        </ion-item>\n\n        <ion-item no-lines>\n          <ion-label color="light" text-left>A:</ion-label>\n          <ion-datetime displayFormat="DD/MM/YY" pickerFormat="DD/MM/YYYY" [(ngModel)]="dtFimGrafico"\n            (ionChange)="materiaTeste()" doneText="OK">\n          </ion-datetime>\n        </ion-item>\n      </div>\n\n      <ion-list *ngIf="viewEspecificacaoMateria" no-lines class="list-info">\n        <h5 text-center>Selecione a matéria</h5>\n        <ion-item *ngFor="let opGrMat of listMateria" (click)="graficoMateria(opGrMat.id,opGrMat.name)">\n          {{opGrMat.name}}\n        </ion-item>\n      </ion-list>\n\n    </div>\n\n    <div [hidden]="!viewGraficoMateria" padding-top>\n      <h4 text-center>Análise {{titulo}}</h4>\n      <h5 text-center style="word-spacing: 7px;">{{dtIniGrafico | date: \'dd/MM/yyyy\'}} à\n        {{dtFimGrafico | date: \'dd/MM/yyyy\'}}</h5>\n      <h5 text-center>{{materia}}</h5>\n\n      <ion-card>\n        <ion-card-content>\n          <canvas #doughnutMatDuvMat width="350" height="350"></canvas>\n        </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n        <ion-card-content>\n          <canvas #doughnutMatAtTut width="350" height="350"></canvas>\n        </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n        <ion-card-content>\n          <canvas #lineMatChHoMa width="350" height="350"></canvas>\n        </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n        <ion-card-content>\n          <canvas #barMatTenMaCh width="350" height="350"></canvas>\n        </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n        <ion-card-content>\n          <canvas #barMatTenMeCh width="350" height="350"></canvas>\n        </ion-card-content>\n      </ion-card>\n\n    </div>\n\n  </div>\n-->\n  <div class="content">\n\n    <div>\n      <!--EXIBIÇÃO DA ESPECIFICAÇÃO DO GRÁFICO-->\n      <ion-list *ngIf="viewEspecificacaoGrafico" no-lines class="list-info">\n        <h5 text-center>Selecione o tipo de análise desejada</h5>\n        <ion-item *ngFor="let opGr of opcaoGrafico" (click)="exibirPeriodo(opGr.tipo)">\n          {{opGr.name}}\n        </ion-item>\n      </ion-list>\n\n      <!--ESPECIFICAÇÃO DE MATERIA-->\n\n      <ion-list *ngIf="viewEspecificacaoMateria" no-lines class="list-info">\n        <h5 text-center>Selecione a matéria</h5>\n        <ion-item *ngFor="let opGrMat of listMateria" (click)="graficoMateria(opGrMat.id,opGrMat.name)">\n          {{opGrMat.name}}\n        </ion-item>\n      </ion-list>\n\n\n      <!--SELECIONAR O PERÍODO DOS GRÁFICOS-->\n      <div *ngIf="viewPeriodo" class="list-info">\n        <h4 text-center>Análise {{titulo}}</h4>\n        <h5 text-center>Escolha o período</h5>\n\n        <ion-item no-lines>\n          <ion-label color="light" text-left>De:</ion-label>\n          <ion-datetime displayFormat="DD/MM/YY" pickerFormat="DD/MM/YYYY" [(ngModel)]="dtIniGrafico" \n          (ionChange)="validarPeriodo()" doneText="OK">\n          </ion-datetime>\n        </ion-item>\n\n        <ion-item no-lines>\n          <ion-label color="light" text-left>A:</ion-label>\n          <ion-datetime displayFormat="DD/MM/YY" pickerFormat="DD/MM/YYYY" [(ngModel)]="dtFimGrafico"\n            (ionChange)="validarPeriodo()" doneText="OK">\n          </ion-datetime>\n        </ion-item>\n      </div>\n\n\n\n      <!--ESPECIFICAÇÃO DE ALUNO e TUTOR-->\n      <ion-searchbar *ngIf="viewEspecificacaoAluno" (ionInput)="procurarItems($event)" placeholder="Procurar"\n        (ionCancel)="cancelProcurar($event)" cancelButtonText="Cancelar" showCancelButton="true"></ion-searchbar>\n      <ion-list *ngIf="viewEspecificacaoAluno" no-lines class="list-info">\n        <ion-list>\n          <ion-item *ngFor="let lsPa of listParametro" (click)="validarGraficoAlunoTutor(lsPa.id,lsPa.name)">\n            {{lsPa.name}}\n          </ion-item>\n        </ion-list>\n\n        <ion-infinite-scroll (ionInfinite)="doInfinite($event)">\n          <ion-infinite-scroll-content></ion-infinite-scroll-content>\n        </ion-infinite-scroll>\n\n      </ion-list>\n\n      <!--************* Gráficos do chamado ***********************************************-->\n\n\n      <div [hidden]="!viewGraficoChamado" padding-top>\n        <h4 text-center>Análise {{titulo}}</h4>\n        <h5 text-center style="word-spacing: 7px;">{{dtIniGrafico | date: \'dd/MM/yyyy\'}} à\n          {{dtFimGrafico | date: \'dd/MM/yyyy\'}}</h5>\n        <ion-card>\n          <ion-card-content>\n            <canvas #doughnutChamadoPorMateria width="350" height="350"></canvas>\n          </ion-card-content>\n        </ion-card>\n\n        <ion-card margin-top>\n          <ion-card-content>\n            <canvas #doughnutChamadoPorTutor width="350" height="350"></canvas>\n          </ion-card-content>\n        </ion-card>\n\n        <ion-card margin-top>\n          <ion-card-content>\n            <canvas #lineChamadoPorHora width="350" height="350"></canvas>\n          </ion-card-content>\n        </ion-card>\n\n        <ion-card margin-top>\n          <ion-card-content>\n            <canvas #barTopTenAlMaCh width="350" height="350"></canvas>\n          </ion-card-content>\n        </ion-card>\n\n        <ion-card margin-top>\n          <ion-card-content>\n            <canvas #barTopLessTenAlMaCh width="350" height="350"></canvas>\n          </ion-card-content>\n        </ion-card>\n\n      </div>\n\n      <!--GRÁFICOS PARA ESPECIFICAÇÃO DE MATÉRIA-->\n      <div [hidden]="!viewGraficoMateria" padding-top>\n        <h4 text-center>Análise {{titulo}}</h4>\n        <h5 text-center style="word-spacing: 7px;">{{dtIniGrafico | date: \'dd/MM/yyyy\'}} à\n          {{dtFimGrafico | date: \'dd/MM/yyyy\'}}</h5>\n        <h5 text-center>{{materia}}</h5>\n\n        <ion-card>\n          <ion-card-content>\n            <canvas #doughnutMatDuvMat width="350" height="350"></canvas>\n          </ion-card-content>\n        </ion-card>\n\n        <ion-card>\n          <ion-card-content>\n            <canvas #doughnutMatAtTut width="350" height="350"></canvas>\n          </ion-card-content>\n        </ion-card>\n\n        <ion-card>\n          <ion-card-content>\n            <canvas #lineMatChHoMa width="350" height="350"></canvas>\n          </ion-card-content>\n        </ion-card>\n\n        <ion-card>\n          <ion-card-content>\n            <canvas #barMatTenMaCh width="350" height="350"></canvas>\n          </ion-card-content>\n        </ion-card>\n\n        <ion-card>\n          <ion-card-content>\n            <canvas #barMatTenMeCh width="350" height="350"></canvas>\n          </ion-card-content>\n        </ion-card>\n\n      </div>\n\n\n    </div>\n\n    <!--GRÁFICOS PARA ESPECIFICAÇÃO DE ALUNO-->\n    <div [hidden]="!viewGraficoAluno" padding-top>\n      <h4 text-center>Análise {{titulo}}</h4>\n      <h5 text-center style="word-spacing: 7px;">{{dtIniGrafico | date: \'dd/MM/yyyy\'}} à\n        {{dtFimGrafico | date: \'dd/MM/yyyy\'}}</h5>\n      <h5 text-center>{{name}}</h5>\n      <ion-card>\n        <ion-card-content>\n          <canvas #doughnutAlChAlMa width="350" height="350"></canvas>\n        </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n        <ion-card-content>\n          <canvas #doughnutAlAtePorClas width="350" height="350"></canvas>\n        </ion-card-content>\n      </ion-card>\n\n    </div>\n\n\n    <!--GRÁFICOS PARA ESPECIFICAÇÃO DE TUTOR-->\n    <div [hidden]="!viewGraficoTutor" padding-top>\n      <h4 text-center>Análise {{titulo}}</h4>\n      <h5 text-center style="word-spacing: 7px;">{{dtIniGrafico | date: \'dd/MM/yyyy\'}} à\n        {{dtFimGrafico | date: \'dd/MM/yyyy\'}}</h5>\n      <h5 text-center>{{name}}</h5>\n      <ion-card>\n        <ion-card-content>\n          <canvas #doughnutTutChMat width="350" height="350"></canvas>\n        </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n        <ion-card-content>\n          <canvas #doughnutTutChCl width="350" height="350"></canvas>\n        </ion-card-content>\n      </ion-card>\n\n      <ion-card>\n        <ion-card-content>\n          <canvas #lineTutAtHoTut width="350" height="350"></canvas>\n        </ion-card-content>\n      </ion-card>\n    </div>\n\n    <!--<a ion-button href="https://api.whatsapp.com/send?phone=5564992552031">SEND</a>-->\n\n\n  </div>\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\M4Sistemas\Downloads\ppa-ionic-ios-master\ppa-ionic-ios-master\src\pages\grafico-gerencial\grafico-gerencial.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_9__providers_grafico_grafico_utils__["a" /* GraficoUtilsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_grafico_grafico_manager_chamado__["a" /* GraficoManagerChamadoProvider */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_grafico_grafico_manager_materia__["a" /* GraficoManagerMateriaProvider */], __WEBPACK_IMPORTED_MODULE_10__providers_grafico_grafico_manager_aluno__["a" /* GraficoManagerAlunoProvider */],
+            __WEBPACK_IMPORTED_MODULE_0__providers_grafico_grafico_manager_tutor__["a" /* GraficoManagerTutorProvider */], __WEBPACK_IMPORTED_MODULE_3_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_6__providers_storage_storage__["a" /* StorageProvider */], __WEBPACK_IMPORTED_MODULE_12__providers_utils_utils__["a" /* UtilsProvider */]])
+    ], GraficoGerencialPage);
+    return GraficoGerencialPage;
+}());
+
+//# sourceMappingURL=grafico-gerencial.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=4.js.map
