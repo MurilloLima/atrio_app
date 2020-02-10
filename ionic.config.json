@@ -1,8 +1,8 @@
 {
-  "name": "ppa",
+  "name": "atrio",
   "integrations": {
     "cordova": {}
   },
   "type": "ionic-angular",
-  "id": "appppa.pxls.tech"
+  "id": "atrioapp.pxls.tech"
 }

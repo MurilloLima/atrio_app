@@ -1,25 +1,162 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6e3e84f-e035-4bc2-a2c7-0a1bf4e59d03" name="Default Changelist" comment="" />
+    <list default="true" id="e6e3e84f-e035-4bc2-a2c7-0a1bf4e59d03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sourcemaps/0.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/0.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sourcemaps/1.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/1.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sourcemaps/10.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/10.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sourcemaps/11.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/11.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sourcemaps/2.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/2.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sourcemaps/3.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/3.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sourcemaps/4.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/4.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sourcemaps/5.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/5.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sourcemaps/6.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/6.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sourcemaps/7.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/7.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sourcemaps/8.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/8.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sourcemaps/9.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/9.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sourcemaps/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.sourcemaps/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ionic.config.json" beforeDir="false" afterPath="$PROJECT_DIR$/ionic.config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/android-versions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/android-versions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ansi/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ansi/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/array-ify/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/array-ify/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/big-integer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/big-integer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bplist-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bplist-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/compare-func/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/compare-func/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/nopt/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cordova-android/node_modules/nopt/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-android/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cordova-android/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-common/node_modules/cross-spawn/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cordova-common/node_modules/cross-spawn/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-common/node_modules/fs-extra/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cordova-common/node_modules/fs-extra/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-common/node_modules/strip-bom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cordova-common/node_modules/strip-bom/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cordova-common/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cordova-common/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dedent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dedent/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/deep-equal/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/deep-equal/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/define-properties/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/define-properties/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/defined/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/defined/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dotignore/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dotignore/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/elementtree/node_modules/sax/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/elementtree/node_modules/sax/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/elementtree/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/elementtree/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/endent/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/endent/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-abstract/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es-abstract/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/es-to-primitive/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/es-to-primitive/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fast-json-parse/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fast-json-parse/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/for-each/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/for-each/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/function-bind/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/function-bind/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has-symbols/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has-symbols/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/has/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/has/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-arguments/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-arguments/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-callable/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-callable/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-date-object/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-date-object/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-obj/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-obj/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-regex/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-regex/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/is-symbol/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/is-symbol/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nice-try/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nice-try/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-inspect/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-inspect/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-is/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-is/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object-keys/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object-keys/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/object.assign/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/object.assign/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/objectorarray/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/objectorarray/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/plist/node_modules/xmlbuilder/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/plist/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/plist/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/properties-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/properties-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/q/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/q/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/regexp.prototype.flags/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/regexp.prototype.flags/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resumer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/resumer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/shelljs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/shelljs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string.prototype.codepointat/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string.prototype.codepointat/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string.prototype.trim/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string.prototype.trim/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string.prototype.trimleft/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string.prototype.trimleft/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/string.prototype.trimright/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/string.prototype.trimright/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tape/node_modules/resolve/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tape/node_modules/resolve/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tape/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tape/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/through/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/through/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/underscore/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/underscore/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/xmldom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/xmldom/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/android.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/0.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/10.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/11.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/7.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/9.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/assets/www/build/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/java/atrioapp/com/br/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/app/src/main/res/xml/config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/platforms/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/platforms/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugins/android.json" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/android.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/ionicons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/noto-sans-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/noto-sans-bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/noto-sans-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/noto-sans-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/noto-sans.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/roboto-bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/roboto-bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/roboto-bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/roboto-light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/roboto-light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/roboto-light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/roboto-medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/roboto-medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/roboto-medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/roboto-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/roboto-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/roboto-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/assets/fonts/roboto.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/0.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/0.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/1.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/10.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/10.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/11.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/11.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/2.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/3.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/5.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/6.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/7.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/8.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/8.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/9.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/9.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/main.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/main.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/build/vendor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/build/vendor.js.map" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,7 +190,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -66,6 +202,7 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -101,33 +238,33 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" visible="true" weight="0.32980332" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Android Profiler" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Logcat" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.32993197" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Assistant" weight="0.33509833" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49829933" weight="0.32980332" />
+      <window_info active="true" id="Structure" order="2" sideWeight="0.5017007" side_tool="true" visible="true" weight="0.32980332" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" weight="0.32993197" />
+      <window_info anchor="bottom" id="Android Profiler" order="5" show_stripe_button="false" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Assistant" order="4" weight="0.33509833" />
     </layout>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="58" lean-forward="true" selection-start-line="14" selection-start-column="58" selection-end-line="14" selection-end-column="58" />
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
         </state>
       </provider>
     </entry>

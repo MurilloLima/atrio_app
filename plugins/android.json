@@ -8,52 +8,52 @@
   },
   "installed_plugins": {
     "com-sarriaroman-photoviewer": {
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     },
     "cordova-plugin-background-mode": {
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     },
     "cordova-plugin-device": {
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     },
     "cordova-plugin-file": {
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     },
     "cordova-plugin-geolocation": {
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     },
     "cordova-plugin-inappbrowser": {
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     },
     "cordova-plugin-ionic-webview": {
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     },
     "cordova-plugin-local-notification": {
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     },
     "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     },
     "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     },
     "cordova-sqlite-storage": {
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     },
     "cordova.plugins.diagnostic": {
       "ANDROID_SUPPORT_VERSION": "28.+",
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     },
     "ionic-plugin-keyboard": {
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     }
   },
   "dependent_plugins": {
     "cordova-plugin-badge": {
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     },
     "cordova-plugin-statusbar": {
-      "PACKAGE_NAME": "appppa.pxls.tech"
+      "PACKAGE_NAME": "atrioapp.pxls.tech"
     }
   }
 }
