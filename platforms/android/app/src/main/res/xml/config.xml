@@ -80,7 +80,7 @@
         <param name="android-package" value="cordova.plugins.Diagnostic_External_Storage" />
         <param name="onload" value="true" />
     </feature>
-    <name>Atrio</name>
+    <name>Átrio</name>
     <description>App do pré-vestibular Atrio</description>
     <author email="contato@pxls.tech" href="http://webppa.ddns.net/">Jônatas C. Barbosa / Manoel Lopes</author>
     <content src="index.html" />

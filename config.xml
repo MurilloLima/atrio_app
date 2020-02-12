@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="atrioapp.pxls.tech" version="1.0.11" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Atrio</name>
+    <name>Átrio</name>
     <description>App do pré-vestibular Atrio</description>
     <author email="contato@pxls.tech" href="http://webppa.ddns.net/">Jônatas C. Barbosa / Manoel Lopes</author>
     <content src="index.html" />
