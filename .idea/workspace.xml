@@ -48,6 +48,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -60,8 +61,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ppa-ionic-ios-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="ppa-ionic-ios-master" type="e9137016:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -98,8 +108,8 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49829933" weight="0.32980332" />
-      <window_info active="true" id="Structure" order="2" sideWeight="0.5017007" side_tool="true" visible="true" weight="0.32980332" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.48979592" visible="true" weight="0.32980332" />
+      <window_info id="Structure" order="2" sideWeight="0.5102041" side_tool="true" visible="true" weight="0.32980332" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
