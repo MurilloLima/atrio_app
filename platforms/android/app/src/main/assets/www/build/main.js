@@ -332,7 +332,7 @@ var map = {
 		8
 	],
 	"../pages/atendimento-usuario/atendimento-usuario.module": [
-		596,
+		597,
 		7
 	],
 	"../pages/cadastrar/cadastrar.module": [
@@ -344,7 +344,7 @@ var map = {
 		5
 	],
 	"../pages/grafico-gerencial/grafico-gerencial.module": [
-		597,
+		596,
 		4
 	],
 	"../pages/home/home.module": [
@@ -352,19 +352,19 @@ var map = {
 		11
 	],
 	"../pages/login/login.module": [
-		600,
+		598,
 		10
 	],
 	"../pages/sobre/sobre.module": [
-		601,
+		600,
 		3
 	],
 	"../pages/tutor-chamado-pendente-selecao-conteudo/tutor-chamado-pendente-selecao-conteudo.module": [
-		598,
+		602,
 		2
 	],
 	"../pages/tutor-chamado-pendente/tutor-chamado-pendente.module": [
-		602,
+		601,
 		1
 	],
 	"../pages/tutor-registro-ponto/tutor-registro-ponto.module": [
@@ -1354,13 +1354,13 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/atendimento-usuario-pendente/atendimento-usuario-pendente.module#AtendimentoUsuarioPendentePageModule', name: 'AtendimentoUsuarioPendentePage', segment: 'atendimento-usuario-pendente', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/cadastrar/cadastrar.module#CadastrarPageModule', name: 'CadastrarPage', segment: 'cadastrar', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/espaco/espaco.module#EspacoPageModule', name: 'EspacoPage', segment: 'espaco', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/atendimento-usuario/atendimento-usuario.module#AtendimentoUsuarioPageModule', name: 'AtendimentoUsuarioPage', segment: 'atendimento-usuario', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/grafico-gerencial/grafico-gerencial.module#GraficoGerencialPageModule', name: 'GraficoGerencialPage', segment: 'grafico-gerencial', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/tutor-chamado-pendente-selecao-conteudo/tutor-chamado-pendente-selecao-conteudo.module#TutorChamadoPendenteSelecaoConteudoPageModule', name: 'TutorChamadoPendenteSelecaoConteudoPage', segment: 'tutor-chamado-pendente-selecao-conteudo', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/atendimento-usuario/atendimento-usuario.module#AtendimentoUsuarioPageModule', name: 'AtendimentoUsuarioPage', segment: 'atendimento-usuario', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/sobre/sobre.module#SobrePageModule', name: 'SobrePage', segment: 'sobre', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tutor-chamado-pendente/tutor-chamado-pendente.module#TutorChamadoPendentePageModule', name: 'TutorChamadoPendentePage', segment: 'tutor-chamado-pendente', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/tutor-chamado-pendente-selecao-conteudo/tutor-chamado-pendente-selecao-conteudo.module#TutorChamadoPendenteSelecaoConteudoPageModule', name: 'TutorChamadoPendenteSelecaoConteudoPage', segment: 'tutor-chamado-pendente-selecao-conteudo', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tutor-registro-ponto/tutor-registro-ponto.module#TutorRegistroPontoPageModule', name: 'TutorRegistroPontoPage', segment: 'tutor-registro-ponto', priority: 'low', defaultHistory: [] }
                     ]
                 }),
