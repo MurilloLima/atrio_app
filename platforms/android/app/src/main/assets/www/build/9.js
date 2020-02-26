@@ -1,1 +1,189 @@
-webpackJsonp([9],{436:function(l,n,u){"use strict";function a(l){return c._22(0,[(l()(),c.Z(0,0,null,null,3,"div",[["class","cabecalho-imagem-vest"]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n        "])),(l()(),c.Z(2,0,null,null,0,"img",[["src","assets/imgs/sobre/sobre-logo-vest.png"]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n      "]))],null,null)}function e(l){return c._22(0,[(l()(),c.Z(0,0,null,null,3,"div",[["class","cabecalho-imagem-med"]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n        "])),(l()(),c.Z(2,0,null,null,0,"img",[["src","assets/imgs/sobre/sobre-logo-med.png"]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n      "]))],null,null)}function o(l){return c._22(0,[(l()(),c.Z(0,0,null,null,54,"ion-list",[["no-lines",""]],null,null,null,null,null)),c.Y(1,16384,null,0,Y.a,[x.a,c.j,c.z,A.a,z.l,k.a],null,null),(l()(),c._20(-1,null,["\n\n        "])),(l()(),c.Z(3,0,null,null,11,"ion-item",[["class","item item-block"],["text-center",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.exibir(1)&&a}return a},E.b,E.a)),c.Y(4,1097728,null,3,I.a,[O.a,x.a,c.j,c.z,[2,q.a]],null,null),c._18(335544320,1,{contentLabel:0}),c._18(603979776,2,{_buttons:1}),c._18(603979776,3,{_icons:1}),c.Y(8,16384,null,0,L.a,[],null,null),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(10,0,null,2,1,"h5",[],null,null,null,null,null)),(l()(),c._20(-1,null,["Cursos"])),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(13,0,null,2,0,"img",[["src","assets/imgs/sobre/botao_cursos.png"]],null,null,null,null,null)),(l()(),c._20(-1,2,["\n        "])),(l()(),c._20(-1,null,["\n\n        "])),(l()(),c.Z(16,0,null,null,11,"ion-item",[["class","item item-block"],["text-center",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.openEspaco()&&a}return a},E.b,E.a)),c.Y(17,1097728,null,3,I.a,[O.a,x.a,c.j,c.z,[2,q.a]],null,null),c._18(335544320,4,{contentLabel:0}),c._18(603979776,5,{_buttons:1}),c._18(603979776,6,{_icons:1}),c.Y(21,16384,null,0,L.a,[],null,null),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(23,0,null,2,1,"h5",[],null,null,null,null,null)),(l()(),c._20(-1,null,["Espaço"])),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(26,0,null,2,0,"img",[["src","assets/imgs/sobre/botao_espaco.png"]],null,null,null,null,null)),(l()(),c._20(-1,2,["\n        "])),(l()(),c._20(-1,null,["\n\n        "])),(l()(),c.Z(29,0,null,null,11,"ion-item",[["class","item item-block"],["text-center",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.exibir(3)&&a}return a},E.b,E.a)),c.Y(30,1097728,null,3,I.a,[O.a,x.a,c.j,c.z,[2,q.a]],null,null),c._18(335544320,7,{contentLabel:0}),c._18(603979776,8,{_buttons:1}),c._18(603979776,9,{_icons:1}),c.Y(34,16384,null,0,L.a,[],null,null),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(36,0,null,2,1,"h5",[],null,null,null,null,null)),(l()(),c._20(-1,null,["Metodologia"])),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(39,0,null,2,0,"img",[["src","assets/imgs/sobre/botao_metodologia.png"]],null,null,null,null,null)),(l()(),c._20(-1,2,["\n        "])),(l()(),c._20(-1,null,["\n\n        "])),(l()(),c.Z(42,0,null,null,11,"ion-item",[["class","item item-block"],["text-center",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.exibir(4)&&a}return a},E.b,E.a)),c.Y(43,1097728,null,3,I.a,[O.a,x.a,c.j,c.z,[2,q.a]],null,null),c._18(335544320,10,{contentLabel:0}),c._18(603979776,11,{_buttons:1}),c._18(603979776,12,{_icons:1}),c.Y(47,16384,null,0,L.a,[],null,null),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(49,0,null,2,1,"h5",[],null,null,null,null,null)),(l()(),c._20(-1,null,["Contatos"])),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(52,0,null,2,0,"img",[["src","assets/imgs/sobre/botao_contato.png"]],null,null,null,null,null)),(l()(),c._20(-1,2,["\n        "])),(l()(),c._20(-1,null,["\n\n      "]))],null,null)}function t(l){return c._22(0,[(l()(),c.Z(0,0,null,null,101,"ion-list",[["class","view-curso"]],null,null,null,null,null)),c.Y(1,16384,null,0,Y.a,[x.a,c.j,c.z,A.a,z.l,k.a],null,null),(l()(),c._20(-1,null,["\n        "])),(l()(),c.Z(3,0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),c._20(-1,null,["Cursos "])),(l()(),c._20(-1,null,["\n        "])),(l()(),c.Z(6,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,E.b,E.a)),c.Y(7,1097728,null,3,I.a,[O.a,x.a,c.j,c.z,[2,q.a]],null,null),c._18(335544320,13,{contentLabel:0}),c._18(603979776,14,{_buttons:1}),c._18(603979776,15,{_icons:1}),c.Y(11,16384,null,0,L.a,[],null,null),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(13,0,null,2,1,"h3",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["Pré-Vestibular Integral +conforto"])),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(16,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(18,0,null,2,1,"p",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            O pré-vestibular integral +conforto é um curso semestra, cujo objetivo é trabalhar\n            todo o conteúdo do Ensino Médio, partindo de uma abordagem básica, até reflexões mais\n            profundas. Com planeamento diário de atividades, aulas dinâmicas e com linguagem\n            contextualizada, além de todo esse conteúdo, oferecemos, em nossa grade-horária,\n            aula prática de redação, de atualidades, de obras clássicas,\n            de situação-problema (objetivando desenvolver nos estudantes repertório sociocultural e\n            habilidade em resolver problemas). O diferencial desse curso é a metodologia ativa\n            que o PPA oferece, o encontro semanal com nossos mentores e o material do Ari de Sá (SAS),\n            cuja plataforma digital apresenta as melhores ferramentas educacionais de apoio ao estudante.\n          "])),(l()(),c._20(-1,2,["\n\n        "])),(l()(),c._20(-1,null,["\n\n        "])),(l()(),c.Z(22,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,E.b,E.a)),c.Y(23,1097728,null,3,I.a,[O.a,x.a,c.j,c.z,[2,q.a]],null,null),c._18(335544320,16,{contentLabel:0}),c._18(603979776,17,{_buttons:1}),c._18(603979776,18,{_icons:1}),c.Y(27,16384,null,0,L.a,[],null,null),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(29,0,null,2,1,"h3",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["Estudo Orientado Campus Integral"])),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(32,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(34,0,null,2,1,"p",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            O Campus é nossa realidade mais orgânica. Com trabalho duro, com garra, com planejamento,\n            organizamos a rotina diária do estudante. Não se trata de um reforço escolar, mas, sim,\n            do desenvolvimento do hábido de estudo, do comportamento necessário para se tornar um indivíduo\n            de alta performance. Neste curso, por meio da Jornada de Transformação, transformamos o Aluno\n            em Estudante e o Participante em Candidato. O encontro semana com os mentores e as atividades\n            complementares são nossos diferenciais.\n          "])),(l()(),c._20(-1,2,["\n\n        "])),(l()(),c._20(-1,null,["\n\n        "])),(l()(),c.Z(38,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,E.b,E.a)),c.Y(39,1097728,null,3,I.a,[O.a,x.a,c.j,c.z,[2,q.a]],null,null),c._18(335544320,19,{contentLabel:0}),c._18(603979776,20,{_buttons:1}),c._18(603979776,21,{_icons:1}),c.Y(43,16384,null,0,L.a,[],null,null),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(45,0,null,2,1,"h3",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["Pré-vestibular Integral turma"])),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(48,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(50,0,null,2,1,"p",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            O pré-vestibular integral turam é um curso semestral, cujo objetivo é trabalhar todo o\n            conteúdo do Ensino Médio partindo de uma abordagem básia até reflexões de atividades,\n            aulas dinâmicas e com linguagem contextualizada, além de todo esse conteúdo, oferecemos,\n            em nossa grade-horária, aula prática de redação, de atualidades, de obras clássicas,\n            de situação-problema (objetivando desenvolver nos estudantes repertório sociocultural e\n            habilidade em resolver problemas). O diferencial desse curso é a metodologia ativa que o\n            PPA oferece, o encontro semanal com nossos mentores e o material do Ari de Sá (SAS),\n            cuja plataforma digital apresenta as melhores ferramentas educacionais de apoio ao estudante.\n          "])),(l()(),c._20(-1,2,["\n\n        "])),(l()(),c._20(-1,null,["\n\n        "])),(l()(),c.Z(54,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,E.b,E.a)),c.Y(55,1097728,null,3,I.a,[O.a,x.a,c.j,c.z,[2,q.a]],null,null),c._18(335544320,22,{contentLabel:0}),c._18(603979776,23,{_buttons:1}),c._18(603979776,24,{_icons:1}),c.Y(59,16384,null,0,L.a,[],null,null),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(61,0,null,2,1,"h3",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["Estudo Orientado Campus Complementar"])),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(64,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(66,0,null,2,1,"p",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            O campus é a nossa realidade mais orgânica. Com trabalho duro, com garra, com planejamento de atividades,\n            com estudo estratégico, organizamos o contraturno escolar do estudante. Não se trata de um reforço escolar,\n            mas, sim, do desenvolvimento do hábito de estudo, do comportamento necessário para se tornar um indíviduo de\n            alta performance. Neste curso, por meio da Jornada de Transformação, transformamos o Aluno em Estudante e o\n            Participante em Candidato. O encontro semanal com os mentores e as atividades complementares são nossos\n            diferenciais.\n          "])),(l()(),c._20(-1,2,["\n\n        "])),(l()(),c._20(-1,null,["\n\n        "])),(l()(),c.Z(70,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,E.b,E.a)),c.Y(71,1097728,null,3,I.a,[O.a,x.a,c.j,c.z,[2,q.a]],null,null),c._18(335544320,25,{contentLabel:0}),c._18(603979776,26,{_buttons:1}),c._18(603979776,27,{_icons:1}),c.Y(75,16384,null,0,L.a,[],null,null),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(77,0,null,2,1,"h3",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            Pré-MED DF matutino e noturno"])),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(80,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(82,0,null,2,1,"p",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et\n            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex\n            ea commodo consequat.\n            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n            Excepteur sint occaecat\n            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n          "])),(l()(),c._20(-1,2,["\n\n        "])),(l()(),c._20(-1,null,["\n\n        "])),(l()(),c.Z(86,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,E.b,E.a)),c.Y(87,1097728,null,3,I.a,[O.a,x.a,c.j,c.z,[2,q.a]],null,null),c._18(335544320,28,{contentLabel:0}),c._18(603979776,29,{_buttons:1}),c._18(603979776,30,{_icons:1}),c.Y(91,16384,null,0,L.a,[],null,null),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(93,0,null,2,1,"h3",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            Redação com Filosofia"])),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(96,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(98,0,null,2,1,"p",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            A prova de redação do Enem é uma prova de LEITURA. O objetivo deste curso é apresentar aos candidatos as\n            regras do jogo. Detalhamos o funcionamento da planilha de correção (nível a nível) para comprovar que\n            redação é treino, é prática é LEITURA estratégica, e não sorte ou inspiração. Com uma pitada crítica de\n            filosofia, desenvolvemos repertório sociocultural produtivo e autoria sempre buscando as melhores soluções\n            para as situações-problemas trabalhadas durante as aulas.\n\n          "])),(l()(),c._20(-1,2,["\n\n        "])),(l()(),c._20(-1,null,["\n\n      "]))],null,null)}function s(l){return c._22(0,[(l()(),c.Z(0,0,null,null,71,"ion-list",[["class","view-curso"]],null,null,null,null,null)),c.Y(1,16384,null,0,Y.a,[x.a,c.j,c.z,A.a,z.l,k.a],null,null),(l()(),c._20(-1,null,["\n        "])),(l()(),c.Z(3,0,null,null,58,"ion-item",[["class","item item-block"]],null,null,null,E.b,E.a)),c.Y(4,1097728,null,3,I.a,[O.a,x.a,c.j,c.z,[2,q.a]],null,null),c._18(335544320,31,{contentLabel:0}),c._18(603979776,32,{_buttons:1}),c._18(603979776,33,{_icons:1}),c.Y(8,16384,null,0,L.a,[],null,null),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(10,0,null,2,1,"h2",[["style","color: #7cc0b5; font-weight: bold;\n                  border-bottom: 1px solid #7cc0b5; margin-left: 0%; padding-top: 3%;"],["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            METODOLOGIA"])),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(13,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(15,0,null,2,7,"p",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,['\n            Após belos e longos anos lecionando em grandes instituições de Brasília e de Goiânia e com\n            caminhada profissional consolidada, nós (Paulo Pérez e Riemma) podemos dizer que a história do\n            PPA começou há 16 anos. Difícil desvincular nossas impressões profissionais do que é o PPA.\n            Digamos que com "casa própria" com metodologia e com sistematização, iniciamos o PPA em 2017.\n            A filosofia PPA, entretanto, sempre esteve presente em nossas relações. Ou seja, não somos novos;\n            somos novidade!\n            '])),(l()(),c.Z(17,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),c.Z(18,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            O PPA é uma troca entre envolvimento e comprometimento. Fazemos a diferença na vida de nossos\n            estudantes, assim como esses jovens fazer a diferença em nossas vidas! PPA é a sigla de\n            Planejamento, Preparação e Aplicação. Reunimos as três ações que acreditamos ser a base de uma\n            caminhada direcionada a conquistas.\n            "])),(l()(),c.Z(20,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),c.Z(21,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            Reunimos as três ações nas quais acreditamos a ser a base de uma caminhada direcionada a conquistas.\n          "])),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(24,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,2,["\n          "])),(l()(),c.Z(26,0,null,2,9,"div",[],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            "])),(l()(),c.Z(28,0,null,null,1,"h5",[["style","color: #7cc0b5"]],null,null,null,null,null)),(l()(),c._20(-1,null,["O PLANEJAMENTO:"])),(l()(),c._20(-1,null,["\n            "])),(l()(),c.Z(31,0,null,null,1,"p",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["(Saber o que estudar, como estudar, por que estudar e quando estudar)"])),(l()(),c._20(-1,null,["\n            "])),(l()(),c.Z(34,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,null,["\n          "])),(l()(),c._20(-1,2,["\n\n          "])),(l()(),c.Z(37,0,null,2,9,"div",[],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            "])),(l()(),c.Z(39,0,null,null,1,"h5",[["style","color: #7cc0b5"]],null,null,null,null,null)),(l()(),c._20(-1,null,[" A PREPARAÇÃO: "])),(l()(),c._20(-1,null,["\n            "])),(l()(),c.Z(42,0,null,null,1,"p",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["(Estudar de fato! Ser competente. O estudo ativo e orientado)"])),(l()(),c._20(-1,null,["\n            "])),(l()(),c.Z(45,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,null,["\n          "])),(l()(),c._20(-1,2,["\n\n          "])),(l()(),c.Z(48,0,null,2,12,"div",[],null,null,null,null,null)),(l()(),c._20(-1,null,["\n            "])),(l()(),c.Z(50,0,null,null,1,"h5",[["style","color: #7cc0b5"]],null,null,null,null,null)),(l()(),c._20(-1,null,[" A APLICAÇÃO: "])),(l()(),c._20(-1,null,["\n            "])),(l()(),c.Z(53,0,null,null,6,"p",[["text-wrap",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["(Saber fazer - praticar - ter habilidade)"])),(l()(),c.Z(55,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,null,["\n              Por isso, PPA - Estudo Orientado, aprendendo a conquistar!\n              "])),(l()(),c.Z(57,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),c.Z(58,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,null,["\n              Nossa metodologia foi desenvolvida em anos de experiência teórico-vivencial e está\n              consolidada com o tempo e com o alto índice de casos de sucesso. O PPA se propõe a\n              transformar alunos em estudantes e participantes em candidatos.\n            "])),(l()(),c._20(-1,null,["\n\n          "])),(l()(),c._20(-1,2,["\n        "])),(l()(),c._20(-1,null,["\n        "])),(l()(),c.Z(63,0,null,null,0,"iframe",[["allowfullscreen",""],["frameborder","0"]],[[8,"src",5]],null,null,null,null)),(l()(),c._20(-1,null,["\n        "])),(l()(),c.Z(65,0,null,null,5,"ion-item",[["class","item item-block"],["no-lines",""]],null,null,null,E.b,E.a)),c.Y(66,1097728,null,3,I.a,[O.a,x.a,c.j,c.z,[2,q.a]],null,null),c._18(335544320,34,{contentLabel:0}),c._18(603979776,35,{_buttons:1}),c._18(603979776,36,{_icons:1}),c.Y(70,16384,null,0,L.a,[],null,null),(l()(),c._20(-1,null,["\n      "]))],null,function(l,n){var u=n.component;l(n,63,0,u.sanitize(u.vid))})}function i(l){return c._22(0,[(l()(),c.Z(0,0,null,null,23,"ion-list",[["class","view-contato"]],null,null,null,null,null)),c.Y(1,16384,null,0,Y.a,[x.a,c.j,c.z,A.a,z.l,k.a],null,null),(l()(),c._20(-1,null,["\n        "])),(l()(),c.Z(3,0,null,null,1,"h3",[["text-left",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["Contato"])),(l()(),c._20(-1,null,["\n        "])),(l()(),c.Z(6,0,null,null,16,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,E.b,E.a)),c.Y(7,1097728,null,3,I.a,[O.a,x.a,c.j,c.z,[2,q.a]],null,null),c._18(335544320,37,{contentLabel:0}),c._18(603979776,38,{_buttons:1}),c._18(603979776,39,{_icons:1}),c.Y(11,16384,null,0,L.a,[],null,null),(l()(),c._20(-1,2,["\n          Centro Empresarial Brasil 21"])),(l()(),c.Z(13,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,2,["\n          Bloco A, salas 503/504, 5º andar"])),(l()(),c.Z(15,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,2,["\n          CEP 70.316-102"])),(l()(),c.Z(17,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,2,["\n          Telefon: 352-2286"])),(l()(),c.Z(19,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,2,["\n          e-mail: ppa@campusppa.com.br"])),(l()(),c.Z(21,0,null,2,0,"br",[],null,null,null,null,null)),(l()(),c._20(-1,2,["\n        "])),(l()(),c._20(-1,null,["\n      "]))],null,null)}function r(l){return c._22(0,[(l()(),c.Z(0,0,null,null,41,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,y.b,y.a)),c.Y(1,4374528,null,0,M.a,[x.a,A.a,k.a,c.j,c.z,S.a,F.a,c.u,[2,R.a],[2,U.a]],null,null),(l()(),c._20(-1,1,["\n  "])),(l()(),c.Z(3,0,null,1,37,"div",[["class","content"]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n    "])),(l()(),c.Z(5,0,null,null,16,"div",[["class","cabecalho"]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.backPage()&&a}return a},null,null)),(l()(),c._20(-1,null,["\n      "])),(l()(),c.Z(7,0,null,null,7,"div",[["class","cabecalho-back"],["text-left",""]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n        "])),(l()(),c.Z(9,0,null,null,1,"ion-icon",[["name","home"],["role","img"]],[[2,"hide",null]],null,null,null,null)),c.Y(10,147456,null,0,B.a,[x.a,c.j,c.z],{name:[0,"name"]},null),(l()(),c._20(-1,null,["\n        "])),(l()(),c.Z(12,0,null,null,1,"ion-icon",[["name","arrow-back"],["role","img"]],[[2,"hide",null]],null,null,null,null)),c.Y(13,147456,null,0,B.a,[x.a,c.j,c.z],{name:[0,"name"]},null),(l()(),c._20(-1,null,["\n      "])),(l()(),c._20(-1,null,["\n      "])),(l()(),c.U(16777216,null,null,1,null,a)),c.Y(17,16384,null,0,D.j,[c.I,c.F],{ngIf:[0,"ngIf"]},null),(l()(),c._20(-1,null,["\n      "])),(l()(),c.U(16777216,null,null,1,null,e)),c.Y(20,16384,null,0,D.j,[c.I,c.F],{ngIf:[0,"ngIf"]},null),(l()(),c._20(-1,null,["\n    "])),(l()(),c._20(-1,null,["\n\n    "])),(l()(),c.Z(23,0,null,null,16,"div",[["class","conteudo"]],null,null,null,null,null)),(l()(),c._20(-1,null,["\n      "])),(l()(),c.U(16777216,null,null,1,null,o)),c.Y(26,16384,null,0,D.j,[c.I,c.F],{ngIf:[0,"ngIf"]},null),(l()(),c._20(-1,null,["\n\n      "])),(l()(),c._20(-1,null,["\n\n\n      "])),(l()(),c.U(16777216,null,null,1,null,t)),c.Y(30,16384,null,0,D.j,[c.I,c.F],{ngIf:[0,"ngIf"]},null),(l()(),c._20(-1,null,["\n\n      "])),(l()(),c._20(-1,null,["\n      "])),(l()(),c.U(16777216,null,null,1,null,s)),c.Y(34,16384,null,0,D.j,[c.I,c.F],{ngIf:[0,"ngIf"]},null),(l()(),c._20(-1,null,["\n\n\n      "])),(l()(),c._20(-1,null,["\n      "])),(l()(),c.U(16777216,null,null,1,null,i)),c.Y(38,16384,null,0,D.j,[c.I,c.F],{ngIf:[0,"ngIf"]},null),(l()(),c._20(-1,null,["\n    "])),(l()(),c._20(-1,null,["\n\n\n  "])),(l()(),c._20(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,10,0,"home");l(n,13,0,"arrow-back");l(n,17,0,u.viewConteudo);l(n,20,0,u.viewConteudo);l(n,26,0,u.viewConteudo);l(n,30,0,u.viewCurso);l(n,34,0,u.viewMetodologia);l(n,38,0,u.viewContato)},function(l,n){l(n,0,0,c._13(n,1).statusbarPadding,c._13(n,1)._hasRefresher);l(n,9,0,c._13(n,10)._hidden);l(n,12,0,c._13(n,13)._hidden)})}Object.defineProperty(n,"__esModule",{value:!0});var c=u(0),d=(u(1),u(58),u(85)),m=u(43),_=u(36),p=function(){function l(l,n,u){this.dom=l,this.navCtrl=n,this.statusBar=u,this.vid="https://www.youtube.com/embed/r5YBlFpJAsE",this.statusBar.overlaysWebView(!1),this.statusBar.backgroundColorByHexString("#311734"),this.viewConteudo=!0,this.viewCurso=!1,this.viewEspaco=!1,this.viewMetodologia=!1,this.viewContato=!1}return l.prototype.ionViewDidLoad=function(){},l.prototype.backPage=function(){this.viewConteudo?this.navCtrl.setRoot(d.a):(this.viewConteudo=!0,this.viewCurso=!1,this.viewEspaco=!1,this.viewMetodologia=!1,this.viewContato=!1)},l.prototype.exibir=function(l){1==l?(this.viewConteudo=!1,this.viewCurso=!0,this.viewEspaco=!1,this.viewMetodologia=!1,this.viewContato=!1):2==l?(this.viewConteudo=!1,this.viewCurso=!1,this.viewEspaco=!0,this.viewMetodologia=!1,this.viewContato=!1):3==l?(this.viewConteudo=!1,this.viewCurso=!1,this.viewEspaco=!1,this.viewMetodologia=!0,this.viewContato=!1):4==l&&(this.viewConteudo=!1,this.viewCurso=!1,this.viewEspaco=!1,this.viewMetodologia=!1,this.viewContato=!0)},l.prototype.openEspaco=function(){this.navCtrl.push("EspacoPage")},l.prototype.sanitize=function(l){return this.dom.bypassSecurityTrustResourceUrl(l)},l}(),b=function(){return function(){}}(),v=u(388),f=u(389),g=u(390),h=u(391),Z=u(392),w=u(393),C=u(394),j=u(395),P=u(396),Y=u(62),x=u(3),A=u(5),z=u(8),k=u(11),E=u(117),I=u(19),O=u(15),q=u(52),L=u(70),y=u(174),M=u(29),S=u(10),F=u(38),R=u(7),U=u(28),B=u(51),D=u(17),N=c.X({encapsulation:2,styles:[],data:{}}),T=c.V("page-sobre",p,function(l){return c._22(0,[(l()(),c.Z(0,0,null,null,1,"page-sobre",[],null,null,null,r,N)),c.Y(1,49152,null,0,p,[_.c,U.a,m.a],null,null)],null,null)},{},{},[]),J=u(18),V=u(173),G=u(61);u.d(n,"SobrePageModuleNgFactory",function(){return W});var W=c.W(b,[],function(l){return c._10([c._11(512,c.i,c.S,[[8,[v.a,f.a,g.a,h.a,Z.a,w.a,C.a,j.a,P.a,T]],[3,c.i],c.s]),c._11(4608,D.l,D.k,[c.r,[2,D.t]]),c._11(4608,J.q,J.q,[]),c._11(4608,J.d,J.d,[]),c._11(512,D.b,D.b,[]),c._11(512,J.o,J.o,[]),c._11(512,J.g,J.g,[]),c._11(512,J.m,J.m,[]),c._11(512,V.a,V.a,[]),c._11(512,V.b,V.b,[]),c._11(512,b,b,[]),c._11(256,G.a,p,[])])})}});
+webpackJsonp([9],{
+
+/***/ 592:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AtendimentoUsuarioMateriaPageModule", function() { return AtendimentoUsuarioMateriaPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__atendimento_usuario_materia__ = __webpack_require__(604);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+var AtendimentoUsuarioMateriaPageModule = /** @class */ (function () {
+    function AtendimentoUsuarioMateriaPageModule() {
+    }
+    AtendimentoUsuarioMateriaPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__atendimento_usuario_materia__["a" /* AtendimentoUsuarioMateriaPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__atendimento_usuario_materia__["a" /* AtendimentoUsuarioMateriaPage */]),
+            ],
+        })
+    ], AtendimentoUsuarioMateriaPageModule);
+    return AtendimentoUsuarioMateriaPageModule;
+}());
+
+//# sourceMappingURL=atendimento-usuario-materia.module.js.map
+
+/***/ }),
+
+/***/ 604:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AtendimentoUsuarioMateriaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__providers_utils_utils__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_conexao_api_conexao_api__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__model_usuario__ = __webpack_require__(156);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_storage_storage__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser__ = __webpack_require__(34);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__ = __webpack_require__(67);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+var AtendimentoUsuarioMateriaPage = /** @class */ (function () {
+    function AtendimentoUsuarioMateriaPage(conexaoApi, domSanitizer, navCtrl, navParams, storage, statusBar, utilsPr) {
+        this.conexaoApi = conexaoApi;
+        this.domSanitizer = domSanitizer;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.storage = storage;
+        this.statusBar = statusBar;
+        this.utilsPr = utilsPr;
+        this.areas = [];
+        this.img_materia_64 = "data:image/png+xml;base64,";
+        //Exibição chamado concluído - 3º passo
+        this.materia = {};
+        this.requisitionConcluir = {};
+        this.usuario = new __WEBPACK_IMPORTED_MODULE_4__model_usuario__["a" /* Usuario */]();
+        this.viewArea = true;
+        this.viewMateria = false;
+        this.viewConcluir = false;
+    }
+    AtendimentoUsuarioMateriaPage.prototype.ionViewWillEnter = function () {
+        var _this = this;
+        // let status bar overlay webview
+        this.statusBar.overlaysWebView(false);
+        // set status bar to white
+        this.statusBar.backgroundColorByHexString('#311734');
+        this.storage.getInfo("usuario")
+            .then(function (usuario) { _this.usuario = usuario; });
+        this.requisition = this.navParams.get('requisition');
+        this.areas = this.requisition.types;
+    };
+    AtendimentoUsuarioMateriaPage.prototype.solicitarAtendimento = function (area) {
+        var _this = this;
+        //Aguardando 2º passo
+        this.conexaoApi.requisitionMatter(this.usuario.token.access_token, area.id, this.usuario.id)
+            .then(function (rsMatter) {
+            //Se há matérias, exibe-as
+            if (rsMatter.matters.length > 0) {
+                _this.viewArea = false;
+                _this.viewMateria = true;
+                _this.materias = rsMatter.matters;
+                for (var i = 0; i < _this.materias.length; i++) {
+                    _this.img_materia_64 += _this.materias[i].image;
+                    //this.materias[i].image = this.domSanitizer.bypassSecurityTrustUrl(this.img_materia_64);
+                    _this.materias[i].image == null || _this.materias[i].image == "" ? _this.materias[i].image = "assets/imgs/no-photo.jpg"
+                        : _this.materias[i].image = _this.domSanitizer.bypassSecurityTrustUrl(_this.img_materia_64);
+                    //Reseta variável para não acrescentar string erroneamente
+                    _this.img_materia_64 = "data:image/png+xml;base64,";
+                }
+                //Passa as matérias para a pagina de solicitação para que possa ser feito o 3º passo
+                //this.navCtrl.push('AtendimentoUsuarioSolicitarPage', {rsMatter: rsMatter.matters} );
+            }
+            else {
+                _this.utilsPr.alertInformation("Não há tutores disponíveis para a área de " + area.name + "!");
+            }
+        })
+            .catch(function (error) {
+            if (error.message) {
+                _this.utilsPr.alertError(error.message);
+            }
+            else {
+                _this.utilsPr.alertError("Não foi possível abrir chamado para essa matéria. Tente novamente!");
+            }
+        });
+        //console.log(materia, this.requisition.sender_call);
+    };
+    //3º PASSO
+    AtendimentoUsuarioMateriaPage.prototype.solicitarAtendimentoConcluir = function (materia) {
+        var _this = this;
+        this.conexaoApi.requisitionCreateAll(this.usuario.token.access_token, materia.id, this.usuario.id)
+            .then(function (requisitionCreatellAll) {
+            _this.materia = materia;
+            _this.requisitionConcluir = requisitionCreatellAll;
+            _this.viewArea = false;
+            _this.viewMateria = false;
+            _this.viewConcluir = true;
+            //console.log("Veio", this.requisition,requisitionCreatellAll);
+            /*this.navCtrl.push('AtendimentoUsuarioSolicitarConcluidoPage', {
+              requisition: requisitionCreatellAll,
+              materia: materia, access_token: this.usuario.token.access_token
+            })*/
+        })
+            .catch(function (error) {
+            if (error.message) {
+                _this.utilsPr.alertError(error.message);
+            }
+            else {
+                _this.utilsPr.alertError("Não foi possível abrir chamado para essa matéria. Tente novamente!");
+            }
+        });
+    };
+    AtendimentoUsuarioMateriaPage.prototype.cancelarSolicitacao = function () {
+        var _this = this;
+        //console.log(this.materia,"\n",this.requisitionConcluir);
+        this.conexaoApi.requisitionCancel(this.usuario.token.access_token, this.requisitionConcluir.id_call)
+            .then(function (requisitionCancel) {
+            _this.utilsPr.alertInformation(requisitionCancel.message);
+            _this.navCtrl.pop();
+        })
+            .catch(function (error) {
+            _this.utilsPr.alertError("Não foi possível cancelar a solicitação. Tente novamente!");
+        });
+    };
+    AtendimentoUsuarioMateriaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["m" /* Component */])({
+            selector: 'page-atendimento-usuario-materia',template:/*ion-inline-start:"C:\Users\Murillo Lima\Desktop\atrio_app\src\pages\atendimento-usuario-materia\atendimento-usuario-materia.html"*/'<ion-header>\n\n\n\n  <ion-navbar>\n\n    <ion-title>PPA</ion-title>\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n\n\n<ion-content>\n\n\n\n  <div class="content">\n\n\n\n    <div class="list-info">\n\n      <ion-list *ngIf="viewArea" no-lines>\n\n        <h5 text-center>Selecione a área</h5>\n\n        <ion-item *ngFor="let area of areas" (click)="solicitarAtendimento(area)">\n\n          {{area.name}}\n\n        </ion-item>\n\n      </ion-list>\n\n\n\n      <ion-list *ngIf="viewMateria" no-lines>\n\n        <h5 text-center>Selecione a matéria</h5>\n\n        <ion-item *ngFor="let materia of materias" (click)="solicitarAtendimentoConcluir(materia)" >\n\n          <ion-avatar item-start >\n\n            <img [src]="materia.image" >\n\n          </ion-avatar>\n\n          <h2 text-left>{{materia.name}}</h2>\n\n        </ion-item>\n\n      </ion-list>\n\n\n\n      <ion-list *ngIf="viewConcluir" class="atendimento-solicitado">\n\n          <div class="atendimento-texto" text-center>Seu atendimento <br>foi solicitado</div>\n\n\n\n          <div class="atendimento-materia" text-center>\n\n              <img [src]="materia.image" class="img-materia">\n\n              <h3>{{materia.name}}</h3>\n\n          </div>\n\n\n\n          <div class="atendimento-cancelar">\n\n            <p text-center>Habilite as notificações do seu celular para ser avisado</p>\n\n\n\n          </div>\n\n          <button color="ppa" ion-button block (click)="cancelarSolicitacao()">Cancelar atendimento</button>\n\n        <!--\n\n        <ion-item>Seu atendimento foi solicitado</ion-item>\n\n        <ion-item>\n\n          <img [src]="materia.image">{{materia.name}}</ion-item>\n\n        <ion-item>{{materia.name}}</ion-item>\n\n        <button ion-button block (click)="cancelarSolicitacao()">Cancelar atendimento</button>\n\n        -->\n\n      </ion-list>\n\n\n\n    </div>\n\n  </div>\n\n</ion-content>\n\n'/*ion-inline-end:"C:\Users\Murillo Lima\Desktop\atrio_app\src\pages\atendimento-usuario-materia\atendimento-usuario-materia.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_3__providers_conexao_api_conexao_api__["a" /* ConexaoApiProvider */], __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser__["c" /* DomSanitizer */],
+            __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["h" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__providers_storage_storage__["a" /* StorageProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_0__providers_utils_utils__["a" /* UtilsProvider */]])
+    ], AtendimentoUsuarioMateriaPage);
+    return AtendimentoUsuarioMateriaPage;
+}());
+
+//# sourceMappingURL=atendimento-usuario-materia.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=9.js.map
