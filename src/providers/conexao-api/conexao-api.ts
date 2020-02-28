@@ -6,7 +6,8 @@ import { timer } from 'rxjs/observable/timer';
 @Injectable()
 export class ConexaoApiProvider {
   //private API_URL = 'http://200.98.142.33/api/';
-  private API_URL = 'http://webppa.ddns.net/api/';
+  //private API_URL = 'http://webppa.ddns.net/api/';
+  private API_URL = 'https://webppa.ddns.net/api/';
 
   private headers = new Headers();
   private requestOptions: RequestOptions;

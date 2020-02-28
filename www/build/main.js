@@ -332,27 +332,27 @@ var map = {
 		8
 	],
 	"../pages/atendimento-usuario/atendimento-usuario.module": [
-		597,
+		594,
 		7
 	],
 	"../pages/cadastrar/cadastrar.module": [
-		594,
+		595,
 		6
 	],
 	"../pages/espaco/espaco.module": [
-		595,
+		596,
 		5
 	],
 	"../pages/grafico-gerencial/grafico-gerencial.module": [
-		596,
+		597,
 		4
 	],
 	"../pages/home/home.module": [
-		599,
+		598,
 		11
 	],
 	"../pages/login/login.module": [
-		598,
+		599,
 		10
 	],
 	"../pages/sobre/sobre.module": [
@@ -360,11 +360,11 @@ var map = {
 		3
 	],
 	"../pages/tutor-chamado-pendente-selecao-conteudo/tutor-chamado-pendente-selecao-conteudo.module": [
-		602,
+		601,
 		2
 	],
 	"../pages/tutor-chamado-pendente/tutor-chamado-pendente.module": [
-		601,
+		602,
 		1
 	],
 	"../pages/tutor-registro-ponto/tutor-registro-ponto.module": [
@@ -1352,15 +1352,15 @@ var AppModule = /** @class */ (function () {
                     links: [
                         { loadChildren: '../pages/atendimento-usuario-materia/atendimento-usuario-materia.module#AtendimentoUsuarioMateriaPageModule', name: 'AtendimentoUsuarioMateriaPage', segment: 'atendimento-usuario-materia', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/atendimento-usuario-pendente/atendimento-usuario-pendente.module#AtendimentoUsuarioPendentePageModule', name: 'AtendimentoUsuarioPendentePage', segment: 'atendimento-usuario-pendente', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/atendimento-usuario/atendimento-usuario.module#AtendimentoUsuarioPageModule', name: 'AtendimentoUsuarioPage', segment: 'atendimento-usuario', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/cadastrar/cadastrar.module#CadastrarPageModule', name: 'CadastrarPage', segment: 'cadastrar', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/espaco/espaco.module#EspacoPageModule', name: 'EspacoPage', segment: 'espaco', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/grafico-gerencial/grafico-gerencial.module#GraficoGerencialPageModule', name: 'GraficoGerencialPage', segment: 'grafico-gerencial', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/atendimento-usuario/atendimento-usuario.module#AtendimentoUsuarioPageModule', name: 'AtendimentoUsuarioPage', segment: 'atendimento-usuario', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/sobre/sobre.module#SobrePageModule', name: 'SobrePage', segment: 'sobre', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/tutor-chamado-pendente/tutor-chamado-pendente.module#TutorChamadoPendentePageModule', name: 'TutorChamadoPendentePage', segment: 'tutor-chamado-pendente', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tutor-chamado-pendente-selecao-conteudo/tutor-chamado-pendente-selecao-conteudo.module#TutorChamadoPendenteSelecaoConteudoPageModule', name: 'TutorChamadoPendenteSelecaoConteudoPage', segment: 'tutor-chamado-pendente-selecao-conteudo', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/tutor-chamado-pendente/tutor-chamado-pendente.module#TutorChamadoPendentePageModule', name: 'TutorChamadoPendentePage', segment: 'tutor-chamado-pendente', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tutor-registro-ponto/tutor-registro-ponto.module#TutorRegistroPontoPageModule', name: 'TutorRegistroPontoPage', segment: 'tutor-registro-ponto', priority: 'low', defaultHistory: [] }
                     ]
                 }),
@@ -1953,7 +1953,8 @@ var ConexaoApiProvider = /** @class */ (function () {
         this.http = http;
         this.loadingCtrl = loadingCtrl;
         //private API_URL = 'http://200.98.142.33/api/';
-        this.API_URL = 'http://webppa.ddns.net/api/';
+        //private API_URL = 'http://webppa.ddns.net/api/';
+        this.API_URL = 'https://webppa.ddns.net/api/';
         this.headers = new __WEBPACK_IMPORTED_MODULE_0__angular_http__["a" /* Headers */]();
         this.headers.append('Content-Type', 'application/json');
     }
